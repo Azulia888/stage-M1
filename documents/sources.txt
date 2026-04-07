@@ -1,0 +1,25 @@
+//read
+
+TRUE : 	https://doi.org/10.1609/aaai.v39i27.35048 
+TRUE dataset : https://github.com/MeiTaylor/TRUE-3MFact
+Snopes website : see insights on paper notes
+
+
+
+
+//to read absolutely
+
+A New Dataset and Benchmark for Grounding Multimodal Misinformation : https://arxiv.org/abs/2509.08008
+websites : PolitiFact
+
+
+//potentially interesting
+
+from TRUE : "merely labeling content as misinformation has lim-
+ited persuasive power on affected users (Sanderson, Far-
+rell, and Ecker 2022)."
+from TRUE : "In contrast, providing correct answers
+alongside errors can significantly enhance the corrective im-
+pact (Mera, Rodr´ıguez, and Marin-Garcia 2022; Mullet and
+Marsh 2016)"
+
