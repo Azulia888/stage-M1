@@ -1,0 +1,82 @@
+#Module Descriptions
+
+//Initial Claim
+
+An initial claim is given or retrieved. The former is very simple ; the user gives a textual fact, a video, an image, or even a link to a post. The latter is more complex and would involve an algorithm like https://rolli.ai/ or https://fullfact.org/ai/ which would retrieve popular posts. This could then be complexified by a full editorial pipeline, or filtered by journalists.
+
+
+//Vision Module
+
+The vision module is meant to analyse the provided video/image given alongside the claim. This module is called only if the claim is multimodal. 
+The vision module would do :
+ - textual resume of the image/video with a VLM 
+ - selection of keyframes of video (using tools like katna (https://github.com/keplerlab/katna))
+ - creation of video transcript (many open source tools available, see https://github.com/topics/video-transcription?l=python)
+ - detection of AI generation (see https://github.com/ant-research/Awesome-AIGC-Image-Video-Detection for a list of papers and githubs on the subjects, alongside datasets)
+ - deepfake detection (see https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection for a list of papers and githubs on the subject)
+ - famous face recognition (seems ambitious, especially for the required database, and I think it would take a lot of time and not add that much value ? https://github.com/ageitgey/face_recognition just in case)
+
+This module isn't concerned with how to handle all that information, it just creates it and forwards it to all the modules which need it. 
+
+
+//Context Retrieval
+
+Retrieves context relevant to the given claim. This can take many forms. If the claim is a link to a social media post, then retrieve the user name and analyse it with a tool like https://github.com/qeeqbox/social-analyzer , which then gives out a lot of information for not just the profile on that given social media platform, but for every profile with the same username on other social media.
+
+This module also does a Reverse Image Search (RIS) on either the image if an image was given, or key frames of the video if a video was given. (https://github.com/SOME-1HING/google-reverse-image-api). This would retrieve the oldest place the image was seen, the most recent, and the one closest in age to the medium of both of those. Then, pull any surrounding text (like if it comes from an article, then text of that article, if it comes from a social media post, text of that post, etc.). 
+
+If facial recognition was done on the Video Module, then wikipedia pages of those people are retrieved as well.
+
+
+//Context Analysis
+
+This module takes the raw retrieved information from the Context Retrieval module, as well as the transcript and the video/image description from the Vision Module, as well as any text available from the Initial Claim and/or a description of that claim, and has an LLM do an analysis of it all. It selects only the relevant retrieved context and resumes it appropriately. If the module determines it needs more context about a critical piece of the claim, then it can ask the Context Retrieval module for more. This module does not truncate any of the information that is given by modules other than the Context Retrieval module.
+
+
+//Information Synthesis
+
+An LLM takes ALL the information retrieved and kept until now, and resumes it as consicely and as usefully as possible. The following module probably do not need the entire transcript of the video, and they don't need every key frames, and they don't need all the text from all the articles retrieved and kept.
+
+
+//Claim Identifier
+
+With the information from the Information Synthesis module, an LLM identifies the claim(s). 
+
+This module is also meant to filter out things that shouldn't be fact-checked further. For exemple, if the context module retrieved that the quote was from the Onion or the Gorafi and correctly determined that those websites are satire, then the Claim Identifier module is able to determine that this is satire and thus shouldn't be fact-checked.
+
+If the given input is an opinion, then it also shouldn't be fact-checked, and if it is handled further, the identified claim should be broader and provide context necessary to have an opinion on the given opinion. 
+
+If the given input is "bullshit" (ie, Trump saying he's the most intelligent president ever), then just say it is and don't fact-check further, because "bullshit" cannot be fact-checked.
+
+
+//Evidence Retrieval
+
+Based on the identified claim and the synthesized information, evidence is retrieved from the internet (see https://github.com/topics/web-search , there are a lot of options who seem free and good after looking at them way too much).
+Once again, raw data is preferred here. Source is of course also retrieved.
+
+
+//Evidence Analysis
+
+Where a few things relevant to the evidence found are evaluated. First, whether it is relevant or not to the claim at hand. Second, whether the source is trustworthy or not (match source name with the list of fact checker websites, news website, and like wikipedia I guess ? Those are all secondary sources, but a web scrapper is very limited in the primary sources it can access sadly). 
+If this module judges there are not enough information, that the information isn't relevant enough, or that the sources are not trustworthy enough, then it generates new questions to ask the Evidence Retrieval module. The source evaluation is a simple database match, everything else is LLM.
+
+When the module determines the information is good enough, then it is synthesized and sent to the Claim Judge module.
+
+
+//Claim Judge
+
+The claim judge takes all the relevant evidence, all the synthesized information, and decides whether the claim found is true or false or NEI. LLM.
+The prompt would be a very and long one, which includes all the data as well as the trustworthiness of that data (ie, We found that [fact] from a trustworthy source, and we found [other fact] from a somewhat trustworthy source).
+
+
+//Decision Evaluator
+
+The Decision Evaluator takes the claim found, the initial claim given at the very beginning, and the verdict declared by the Claim Judge, and evaluates whether the decision is coherent or not. This is more about whether or not the entire pipeline went almost out of bound and found things that are very irrevelant. This module evalutes the pipeline as a whole, and judges whether it should be started again or not. While the arrow on the schema only directs back to the beginning, it can call individual modules for more information. For example, it could be : "I need more data on the video itself, so I'll ask for a transcript and a description from the Video Module, and I can then re-ask the Claim Identifier what the claim is, and then if it's different I'll go through the entire second half of the process again."
+
+
+//Explanation Generation
+
+Everything done by every module is kept in memory : transcripts, descriptions, information kept and discarded and why. All LLMs process are required in a secondary prompt to describe why they did what they did, and those answers are kept in the module's memory. Every RIS result, every source found and kept and why, trustworthiness scores, confidence levels of AI generation, everything is kept. This module then takes all that information and maps out all of that in a clear and obvious manner, so that the entire reasonning is laid out in a human-understandable format. The Claim Judge module could also be subjected to SHAP or LIME to find out which tokens had the most effect on the given prediction.
+
+
+

@@ -1,0 +1,19 @@
+-> Panoptic segmentation -> identifying the things on the image (https://github.com/open-mmlab/mmdetection) (on key frames ?) (also see Video Object Segmentation, don't know if that can be useful but here https://github.com/gaomingqi/Awesome-Video-Object-Segmentation)
+-> Optical Character Recognition (mostly used for images but it probably can be used for videos as well ? there are some githubs about that but they're not starred a lot so idk how much they can be trusted)
+-> Visual/Video Question Answering might be usable, but maybe not at the first level. If the end of the pipeline isn't sure about the decision, it could decide to ask a VQA module for whether there's something in the image/video or not (https://github.com/VRU-NExT/VideoQA)
+-> RIS of course (https://github.com/topics/reverse-image-search?l=python)
+-> face recognition (ER and knowledge base lookup)
+-> deepfake detection
+-> AI generation detection
+-> keyframe extraction
+-> summarization (VLM)
+-> I saw that there are some things that can allow for gesture recognition, emotion detection, action recognition, etc, but I feel like this is a slippery slope. Non-verbal cues are famously unreliable, racists, and used for biased decision-making. While those could be useful, basing a model that tries to help fact-checkers on it seems like a bad idea, ethically speaking.
+-> metadata extraction can be super interesting. In the case where the original post can be retrieved, and thus the video can be downloaded, you have the --write-info-json flag in yt-dlp. (trying it out i don't think it's going to be the most useful thing ever but who knows)
+-> Shot Boundary Detection. Might be useful in extracting key frames, and also maybe other things ? I have no idea if that's true or not, but maybe videos with more quick cuts in them are more likely to contain misinformation ? It would fit with what we see on SM and like influencers using really quick cuts to confuse the viewer's brain (https://ceur-ws.org/Vol-2589/Paper6.pdf)
+-> geolocation of images/videos can be useful (ie, the claim says the video was taken somewhere, but geolocation says it happened somewhere else) (I know it's possible because of geoguesser algorithms, they're certainly not the best but they could be useful)
+-> weather cross-referencing ; does the weather records of the claimed date/place match that of the actual date/place
+-> Image-caption consistency scoring (probably via LLMs ?)
+-> Metadata/actual video/image inconsistencies
+
+
+

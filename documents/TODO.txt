@@ -1,0 +1,8 @@
+//TODO
+
+pour lundi -> finir un run complet des tools informationnels sur les 10 videos + un rapport qui resume le chimenemnt de pensée jusqu'à maintenant et une présentation des tools choisis et pourquoi, ou j'en suis (anglais, déstiné à tout le monde)
+
+
+dans le reste de la semaine -> continuer le reste du code + determine pipeline d'un fact checker (a partir de mes notes et tout) + re-check "image, tell me your story" et répondre aux questions pour les vidéos choisies (peut etre faut il adapter les questions pour des videos et pas des images)
+
+

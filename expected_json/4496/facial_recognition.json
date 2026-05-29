@@ -1,0 +1,10 @@
+{
+	"ToolName": "Facial Recognition",
+	"Input": ["Image", "Video", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "Donald Trump",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

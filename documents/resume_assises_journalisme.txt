@@ -1,0 +1,81 @@
+#Résumé assises du journalisme
+
+//1ère conférence : ATELIER RECHERCHE ET JOURNALISME : UNE HISTOIRE DU FACT-CHECKING
+-- Avec Pascal Froissart, Professeur des Universités au CELSA et Eric Lagneau, journaliste à l'AFP
+-- Animé par Claire Blandin (Université Sorbonne Paris-Nord)
+
+
+Atelier très intéressant qui a donc commencé avec une re-contextualisation du fact-checking ; débuts en 1942 par un psychologue américain qui luttait contre la propagande Nazi aux Etats-Unis ("patriotisme scientifique"), avec la forme moderne que nous connaissons aujourd'hui qui a émergé chez les "geeks".
+
+A l'AFP, le fact-checking a trois formes : fact-checking interne, fact-checking politique, fact-checking des rumeurs sur les réseaux sociaux (surtout depuis 2016, avec Trump et le Brexit).
+
+Eric Lagneau a mentionné que beaucoup de formes de fact-checking ont été testés à travers le temps, et beaucoup ont été critiqués. Il a donné comme exemple un barème de vérité (ex: Vrai à 40%), et le fact-checking en direct, à ma grande surprise, mais le sujet n'a pas été développé et je n'ai pas pu poser de questions.
+
+Il a également parlé des critères que l'AFP emploie afin de savoir si une information doit être fact-checker ou pas : 
+ - Viralité de l'information ; si une information n'est que peu connue, risque MAJEUR d'effet Streisand,
+ - Niveau d'importance interne,
+ - Niveau de faisabilité du fact-check ; on ne fact-check ni le futur, ni les opinions, et certaines informations ne sont tout simplement pas vérifiables (ex: "Zelensky a acheté une villa en France" vs "Zelensky a acheté CETTE villa en France (avec donc une photo)").
+
+Il a aussi mentionné (et c'est un point qui reviendra), que le fact-checking se doit d'être traçable ; n'importe quel utilisateur doit pouvoir entreprendre les mêmes étapes qui sont décrites dans l'article afin de vérifier la véracité de l'information.
+
+L'historien a mentionné que selon une étude de l'époque des premiers fact-checkers, l'attention des lecteurs/auditeurs était maximale lors de l'énonciation de la rumeur, et minimale lors de l'explication de pourquoi celle-ci est fausse. Ces résultats sont aujourd'hui admits et corroborent le risque d'effet Streisand évoqué précedemment.
+D'autres études montrent par ailleurs que le fact-checking n'est pas si efficace que ça. Mais si il n'est que peu utile pour "les gens lambda" (pas mes mots), il est très formatteur pour le journaliste.
+Il faut toujours deux sources distinctes et indépendantes pour valider un fact-check.
+
+Il y a malgré tout un effet positif du fact-checking sur le débat public, donner un endroit où la vérité trône est important. Aussi important est l'effet "vaccin" que le fact-checking peut avoir sur des populations avec un esprit critique moins développé (ie, des jeunes, ou, selon une des personnes du public, le public Africain qui aurait moins l'habitude de remettre en question l'information).
+
+Finalement, créer du fact-checking trop vite est risqué, et autre que l'acte pure de fact-check, les choix éditoriels derrière QUOI fact-check sont cruciaux et, selon eux, difficilement reproduisibles par l'IA.
+
+
+
+//2ème conférence : ATELIER RECHERCHE ET JOURNALISME : DÉSORDRES INFORMATIONNELS : QUAND LA VÉRITÉ ÉCHAPPE AUX JOURNALISTES…
+-- Avec Christophe Deleu (Université de Strasbourg) ; Clément Legros, journaliste OSINT pour Les Révélateurs (France TV) ; Arnaud Mercier (Université Paris Panthéon-Assas) et Angèle Stalder (Université Jean Moulin Lyon 3)
+-- Co animé par Lucie Alexis (Université Grenobles Alpes) et Céline Ségur (Université de Lorraine
+
+Une conférence tout aussi intéressante, et qui a beaucoup parlé de comment la vérité était un objet fluide, en mouvement, plus qu'un absolu objectif. Je développerai davantage dans les réflexions globales.
+
+Le phénomène de "désordre informationnel" désigne la conglomération de ces facteurs :
+ - beaucoup trop d'informations arrivent en même temps ce qui est très overwhelming
+ - excès renforcé par le fait que tout le monde peut "devenir un média" avec les réseaux sociaux
+ - les influenceurs recuillent la confiance du public non pas sur leurs qualités journalistiques, mais pour d'autres raisons qui n'ont souvent rien à voir avec l'éthique
+ - l'IA générative empire TOUT
+ - chaines d'informations en continues, youtube, tiktok, etc...
+Tous ces facteurs mènent à "l'infobésité" ; trop d'information, partout, tout le temps. Cela entraîne l'impossibilité de s'informer "correctement", et donc, pour beaucoup de consommateurs, vers l'exode informationnel.
+
+Parler de fact-checking et donc de désinformation démotive les gens à s'informer. Si il est tout le temps répété que "vous ne devez faire confiance à rien ni personne", alors les gens abandonnent toute tentative de s'informer -> exode informationnel.
+
+Clément Legros disait que l'OSINT et ses techniques pouvait redonner confiance en le fact-checking, car il suit des techniques qui sont claires et reproduisibles. Cela renforce donc le point du premier atelier ; un bon fact-checking se doit de décrire l'entiereté du processus -> un graphe d'explicabilité semble donc une excellente idée.
+
+Il faut distinguer les paroles qui ne sont pas fact-checkables. Exemple, le "bullshit" de Trump : "Je suis le président le plus intelligent de l'histoire" n'est pas un fait vérifiable, et le "burden of proof" devrait être transferré sur lui plutôt que sur nous -> "montre les relevés de QI de Clinton". Intéressant pour une IA.
+
+
+
+//3ème conférence : VRAIES IMAGES, FAUSSES IMAGES : L'I.A REDÉFINIT-ELLE LA VÉRITÉ JOURNALISTIQUE ?
+-- Avec Flore di Sciullo, docteure en sciences de l’information et de la communication et chercheuse associée au laboratoire CARISM (Université Panthéon-Assas) ; Isabelle Toublant, rédactrice en chef adjointe, en charge de la gestion de l'ensemble des images vidéo pour TF1, LCI et le digital (Groupe TF1) et François-Xavier Marit, rédacteur en chef technique photo de l’AFP.
+-- Animé par Arnaud Mercier, professeur en Sciences de l'Information & de la Communication (Université Panthéon-Assas).
+
+
+Si cette conférence était la moins intéressante des trois, elle a mis l'accent sur le danger journalistique et démocratique des images et vidéos générées par IA. Plus que faire croire que quelque chose de faux est vrai, elles entrainent une perte de confiance des citoyens envers la preuve par l'image, ce qui pourtant était la forme idéale de preuve pendant des années.
+
+Il est IMPERATIF de trouver une manière de démeler le vrai du faux. Mais contrairement à ce que l'on pourrait penser, il est plus important pour les journalistes de détecter le vrai, que de détecter le faux. Ils mettent donc en place des technologies pour watermarker de facon invisible les photos prises par un appareil photo, un watermark qui serait ensuite validé par un serveur distant. 
+
+Flore di Sciullo met le doigt sur l'intérêt d'une analyse sémiotique ; une analyse des raisons dérrière l'utilisation des images générées par IA. Cela permettrait selon elle de potentiellement plus facilement repérer des images générées par IA. Par exemple, un post twitter d'une image de propagande pro-trump par un trumpiste a plus de chance d'être généré par IA que si elle avait été posté par quelqu'un de gauche.
+
+
+
+//Réflexions globales
+
+La première avenue de réflexion qui est souvent remontée est qu'une vérité unique et objective n'existe pas. Cependant, une factualité peut exiter. Une photo est par exemple prise à un certain moment, à un certain endroit, et cela n'est pas sujet à la relativité. On peut donc fact-check la factualité de ces informations qui sont, elles, objectives. 
+
+Cela emmène au deuxième point : le fact-checking est un processus long, complexe, parfois impossible, et souvent dangereux. Si notre IA doit participer à la réalisation de nouveaux fact-checking, et pas simplement à la rediffusion d'informations déjà vérifiées, alors il faudra faire des choix éditoriels, d'une façon ou d'une autre. L'utilité même du fact-checking est souvent remise en question, surtout quand il concerne le fact-checking de rumeurs. 
+
+Je pense que, suite à ces conférences et à mes autres recherches cette semaine, que le fact-checking de rumeurs automatisé et systématique est à la fois impossible et dangereux. Impossible, car le fact-checking passe par beaucoup plus d'étapes que simplement regarder sur internet pour des articles sur le sujet. Le fact-checking de rumeurs invoque la recherche par image, la communication avec des experts, et un croisement complexe d'informations qui sont souvent difficilement trouvables. 
+Cependant, le fact-checking politique reste possible. Si la factualité est plus rarement présente dans ce domaine, et qu'apparemment le fact-checking en direct n'est pas forcément une bonne chose, il reste démocratiquement intéressant et beaucoup plus simple à réaliser.
+
+Enfin, ces conférences m'ont fait prendre conscience que l'explicabilité et le traçage du raisonnement d'un AFC étaient des choses essentielles. Un fact-check n'est considéré que valide s'il a au moins deux sources, et que l'entiéreté du fact-check est reproduisible par un humain motivé.
+
+
+
+
+
+

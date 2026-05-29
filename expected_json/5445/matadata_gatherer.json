@@ -1,0 +1,10 @@
+{
+	"ToolName": "Metadata Gatherer",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "Posted on Facebook on September 13, 2023, by user TitaPost.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

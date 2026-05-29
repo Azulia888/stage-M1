@@ -1,0 +1,10 @@
+{
+	"ToolName": "Metadata Analysis",
+	"Input": ["Metadata"],
+	"hasRun": 0, 
+	"Output": "",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

@@ -1,0 +1,16 @@
+selected claims :
+
+(add video length)
+
+//videos
+
+5445 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5445 (miscontext)
+103845 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103845 (ai gen)
+103998 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103998 (miscontext)
+286 - https://veritas.mai.informatik.tu-darmstadt.de/claims/286 (false stuff said by fox news)
+1471 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1471 (miscontext)
+4496 - https://veritas.mai.informatik.tu-darmstadt.de/claims/4496 (miscontext)
+5841 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5841 (false)
+102292 - https://veritas.mai.informatik.tu-darmstadt.de/claims/102292 (ai gen)
+5360 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5360 (manipulated clips)
+1359 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1359 (miscontext)

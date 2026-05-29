@@ -1,0 +1,14 @@
+Output format des mini-modules (json) :
+
+{
+	"ToolName": "Le nom du mini-module",
+	"Input": ["Image", "Video", "Keyframes", "Transcript", "Description", "OCR", "Metadata"],
+	"hasRun": 0 ou 1 en fonction de si le tool a deja été lancé ou non
+	"Output": "ce que renvoie le module",
+	"Explanation": "explication générée par le mini-module",
+	"Confidence": 0.9 (-1 si non applicable),
+	"ConfidenceExplanation": "explication du niveau de confiance, si applicable"
+	"CorroboratingTools": ["liste des outils qui peuvent être utilisés en lien avec cet outil"]
+}
+
+Chaque classe outil a un attribut avec le format de ce json non rempli, mais avec les informations spécifiques à cet outil quand même présentes. Il faut que l'input soit toujours rempli par exemple.

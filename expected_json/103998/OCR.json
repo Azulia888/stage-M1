@@ -1,0 +1,10 @@
+{
+	"ToolName": "OCR",
+	"Input": ["Image", "Video", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "منزل نتنياه ويحترق بنیران اولاد علٰی الکرار",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

@@ -1,0 +1,10 @@
+{
+	"ToolName": "OCR",
+	"Input": ["Image", "Video", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "Rex Chapman. Rex Chapman. Sandra the orangutang started washing her hands because she saw all the zookeepers doing it repeatedly during the COVID-19 crisis. Wash your hands. Be more like Sandrea.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

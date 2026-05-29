@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "The video shows a small group of men at night watching a statue of Buddha being constricted by a giant snake.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

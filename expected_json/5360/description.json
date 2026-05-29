@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "The video shows a compilation of clips with people rioting violently. There is a music playing in the background, and no sounds from the original video are left. At the end of the video, the Hindu flag can be seen.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

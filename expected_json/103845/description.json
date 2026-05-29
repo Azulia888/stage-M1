@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "The video shows an air strike on Dubai. The view is taken from an hotel, and we can see and hear people panicking.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

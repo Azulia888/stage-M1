@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "Verified Twitter user Rex Chapman posted a tweet which includes a video showing an orangutang washing her hands. The tweet itself mentions the orangutang is named Sandra and she is washing her hands as a way to imitate zookeepers during the COVID-19 pandemic. The poster encourages people to be more like Sandra and wash their hands more proactively.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

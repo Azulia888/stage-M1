@@ -1,25 +1,109 @@
+//todo 
+
+ask for permission to download the veritas dataset (mail of the guy is on the paper)
+
 //read
 
-TRUE : 	https://doi.org/10.1609/aaai.v39i27.35048 
-TRUE dataset : https://github.com/MeiTaylor/TRUE-3MFact
-Snopes website : see insights on paper notes
-
-
+-> TRUE : 	https://doi.org/10.1609/aaai.v39i27.35048 
+-> TRUE dataset : https://github.com/MeiTaylor/TRUE-3MFact
+-> Snopes website : see insights on paper notes
+-> A New Dataset and Benchmark for Grounding Multimodal Misinformation : https://arxiv.org/abs/2509.08008
+-> GMM dataset : https://github.com/yangbingjian/GroundLie360?tab=readme-ov-file
+/!\ -> VERITAS : The First Dynamic Benchmark for Multimodal Automated Fact-Checking : https://arxiv.org/pdf/2601.08611 /!\
+-> https://www.claimreviewproject.com/
+-> MMM-Fact: A Multimodal, Multi-Domain Fact-Checking Dataset with Multi-Level Retrieval Difficulty : https://arxiv.org/pdf/2510.25120
+-> https://factoscope.fr/ - no new info from the ones in snopes
+-> PolitiFact
+-> Explaining Misinformation Detection Using Large Language Models : https://www.mdpi.com/2079-9292/13/9/1673
+-> Explainable Models for the Detection of Incidents of Fake News and Hate Speech : https://www.taylorfrancis.com/chapters/edit/10.1201/9781003409519-6/explainable-models-detection-incidents-fake-news-hate-speech-vraj-desai-ashray-gattani-harshal-dalvi
+-> Show me the evidence: Evaluating the role of evidence and natural language explanations in AI-supported fact-checking : https://arxiv.org/pdf/2601.11387
+/!\ -> Show Me the Work: Fact-Checkers’ Requirements for Explainable Automated Fact-Checking : https://dl.acm.org/doi/full/10.1145/3706598.3713277 /!\
+-> Beyond Transparency: Evaluating Explainability in AI-Supported Fact-Checking : https://dl.acm.org/doi/full/10.1145/3733567.3735566
+-> A Survey on Automated Fact-Checking : https://arxiv.org/pdf/2108.11896
+-> Fact Checking with Insufficient Evidence : https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00486/112498/Fact-Checking-with-Insufficient-Evidence
+-> Fake News Detection on Social Media using Geometric Deep Learning : https://arxiv.org/pdf/1902.06673
+-> Beyond Fact-Checking: A Scalable, Domain-Agnostic, and Explainable System for Automated Fake News Detection : https://ceur-ws.org/Vol-3986/short2.pdf
+/!\ -> FACT-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning : https://arxiv.org/abs/2505.16836v3
+/!\ -> “Image, Tell me your story!” Predicting the original meta-context of visual misinformation : https://aclanthology.org/2024.emnlp-main.448/
 
 
 //to read absolutely
 
-A New Dataset and Benchmark for Grounding Multimodal Misinformation : https://arxiv.org/abs/2509.08008
-websites : PolitiFact
+
+
+
 
 
 //potentially interesting
 
-from TRUE : "merely labeling content as misinformation has lim-
-ited persuasive power on affected users (Sanderson, Far-
-rell, and Ecker 2022)."
-from TRUE : "In contrast, providing correct answers
-alongside errors can significantly enhance the corrective im-
-pact (Mera, Rodr´ıguez, and Marin-Garcia 2022; Mullet and
-Marsh 2016)"
+Examining the role of information integration in the continued influence effect using an event segmentation approach : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271566
+
+Unraveling the benefits of experiencing errors during learning: Definition, modulating factors, and explanatory theories : https://pubmed.ncbi.nlm.nih.gov/34820785/
+
+MMOOC: A Multimodal Misinformation Dataset for Out-of-Context News Analysis : https://link.springer.com/chapter/10.1007/978-981-97-5101-3_24
+
+Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection : https://aclanthology.org/2020.lrec-1.755/
+
+Towards a Multi-modal Multi-Label Election-Context Repository for Classifying Misinformation : https://workshop-proceedings.icwsm.org/abstract.php?id=2025_26
+
+Fin-Fact: A Benchmark Dataset for Multimodal Financial Fact-Checking and Explanation Generation : https://dl.acm.org/doi/10.1145/3701716.3715292
+
+ClimateViz: A Benchmark for Statistical Reasoning and Fact Verification on Scientific Charts : https://arxiv.org/abs/2506.08700
+
+Dataset for multimodal fake news detection and verification tasks : https://www.sciencedirect.com/science/article/pii/S2352340924004098?via%3Dihub
+
+Zero-shot and Few-shot Learning with Instruction-following LLMs for Claim Matching in Automated Fact-checking : https://aclanthology.org/2025.coling-main.650/ 
+
+Dis2Dis: Explaining Ambiguity in Fact-Checking : https://aclanthology.org/2025.findings-naacl.14/
+
+AmbiFC: Fact-Checking Ambiguous Claims with Evidence : https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00629/119057/AmbiFC-Fact-Checking-Ambiguous-Claims-with
+
+MM-Claims: A Dataset for Multimodal Claim Detection in Social Media : https://aclanthology.org/2022.findings-naacl.72/
+
+From Chaos to Clarity: Claim Normalization to Empower Fact-Checking : https://aclanthology.org/2023.findings-emnlp.439/
+
+'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection : https://dl.acm.org/doi/10.1145/3746275.3762215
+
+Multimodal and Multilingual Fact-Checked Article Retrieval : https://dl.acm.org/doi/10.1145/3731715.3733402
+
+MM-SOC: Benchmarking Multimodal Large Language Models in Social Media Platforms : https://aclanthology.org/2024.findings-acl.370/
+
+COVE: COntext and VEracity prediction for out-of-context images : https://arxiv.org/abs/2502.01194
+
+Detecting and Grounding Multi-Modal Media Manipulation : https://ieeexplore.ieee.org/document/10203815
+
+HintsOfTruth: A Multimodal Checkworthiness Detection Dataset with Real and Synthetic Claims : https://arxiv.org/abs/2502.11753
+
+VERITE: a Robust benchmark for multimodal misinformation detection accounting for unimodal bias : https://link.springer.com/article/10.1007/s13735-023-00312-6
+
+NewsCLIPpings: Automatic Generation of Out-of-Context Multimodal Media : https://aclanthology.org/2021.emnlp-main.545/
+
+https://rolli.ai/
+
+A Survey on Automated Fact-Checking : https://arxiv.org/pdf/2108.11896
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

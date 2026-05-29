@@ -1,0 +1,10 @@
+{
+	"ToolName": "Keyframes",
+	"Input": ["Video"],
+	"hasRun": 0, 
+	"Output": "One keyframe from every clip, as well as the Hindu flag at the end.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

@@ -1,0 +1,10 @@
+{
+	"ToolName": "OCR",
+	"Input": ["Image", "Video", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "TikTok, @barland3",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

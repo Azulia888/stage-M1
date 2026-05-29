@@ -1,0 +1,10 @@
+{
+	"ToolName": "Geolocation",
+	"Input": ["Image", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "Dubai",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

@@ -1,0 +1,10 @@
+{
+	"ToolName": "Transcript",
+	"Input": ["Video"],
+	"hasRun": 0, 
+	"Output": "None",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

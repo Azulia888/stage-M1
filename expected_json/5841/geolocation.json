@@ -1,0 +1,10 @@
+{
+	"ToolName": "Geolocation",
+	"Input": ["Image", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "Sri Lanka",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

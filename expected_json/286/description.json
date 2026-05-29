@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "The video shows a segment from the TV channel Fox News. The hosts are talking to a member of the White House's staff, and they're asking him questions about the recent reveals concerning one of the staff, who was accused of domestic abuse. The journalists are asking about whether or not Trump denounced the actions of the accused behind closed doors.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

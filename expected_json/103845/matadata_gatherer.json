@@ -1,0 +1,10 @@
+{
+	"ToolName": "Metadata Gatherer",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "11 of March 2026",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

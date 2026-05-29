@@ -1,0 +1,10 @@
+{
+	"ToolName": "Deepfake Detection",
+	"Input": ["Video"],
+	"hasRun": 0, 
+	"Output": "False",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

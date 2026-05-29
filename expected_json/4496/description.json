@@ -1,0 +1,10 @@
+{
+	"ToolName": "Description",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "Donald Trump tells voters not to comply with forced vaccinations or lockdowns due to a looming monkeypox threat. He states his political opponents would use the restrictions and mail-in ballots to manipulate the 2024 US presidential election.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

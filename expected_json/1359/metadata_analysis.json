@@ -1,0 +1,10 @@
+{
+	"ToolName": "Metadata Analysis",
+	"Input": ["Metadata"],
+	"hasRun": 0, 
+	"Output": "Twitter post was uploaded on April 1st 2020, at 9:09am. Original video is from 2019.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

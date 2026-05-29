@@ -1,0 +1,443 @@
+#Exemple ( https://factoscope.fr/factoscope/non-cette-image-ne-montre-pas-un-bombardement-iranien-en-cote-divoire/ )
+
+//Initial Claim
+link to tiktok video : https://www.tiktok.com/@tiktok.nam.dinaroffilcil/photo/7612374354101308694?_r=1&_t=ZS-94Lp2PbDjAg
+
+
+//Vision Module
+-> yt-dlp downloads the video from the link.
+-> Extraction of key frames -> the post is not technically a video, it's a still image with audio over it. Thus, no key frames to extract, just take the image by itself.
+-> Creation of textual resume of the image through a VLM :
+  - Prompt (ex) : "Concisely describe the given image while focusing mostly on visual elements. Include all on screen text."
+  - Result (ex) : "This image shows a building on fire with a big plume of black smoke coming from it. Text on the screen says : "Urgent 🚨 Côté d'ivoire 🇨🇮"."
+-> Creation of audio transcript (see tools) : "La Côte d’Ivoire est bombardée par l’Iran. Oui, l’Iran vient de bombarder la Côte d’Ivoire, après avoir bombardé sept pays"
+-> Detection of AI generation : False
+-> Detection of Deepfakes : False
+(-> Famous face recognition : No match)
+
+
+//Context Retrieval
+
+-> from image, reverse image search. Here, used the one with the flaming building on the article. Results give articles : 
+https://www.lorientlejour.com/article/1465138/cinquieme-nuit-descalade-entre-israel-et-liran-trump-conseille-devacuer-teheran-immediatement-papier-general.html
+https://curadas.com/2025/06/17/continua-el-intercambio-de-fuego-entre-iran-e-israel/
+
+-> Retrieves text from it.
+
+-> Retrieves user name and use a social media profile analyzer.
+In the url, we have "nam.dinaroffilcil" as the tiktok profile.
+We paste that into the social analyser, it gives : 
+found        : 2
+link         : https://chaturbate.com/nam.dinaroffilcil/
+rate         : %100.0
+status       : good
+title        : filtered
+language     : English
+country      : United States
+rank         : 48
+text         : filtered
+type         : Adult
+-----------------------
+found        : 2
+link         : https://dailymotion.com/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Dailymotion
+language     : English (Maybe)
+country      : United States
+rank         : 334
+text         : Dailymotion
+type         : Arts and Entertainment > TV Movies and Streaming
+-----------------------
+found        : 2
+link         : https://facebook.com/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Facebook
+language     : French
+country      : United States
+rank         : 6
+text         : Facebook
+type         : Computers Electronics and Technology > Social Networks and Online Communities
+-----------------------
+found        : 2
+link         : https://mercadolivre.com.br/perfil/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Parece que esta página não existe
+language     : Portuguese (Maybe)
+country      : Brazil
+rank         : 370
+type         : E-commerce and Shopping > Marketplace
+-----------------------
+Not sure if this is interesting, but we can note that there are no countries detected as Cote d'Ivoir, which would have seemed logical if this was real.
+
+
+//Context Analysis and Information Synthesis (might merge the two later)
+
+-> Translate the retrieved text from the articles in english (LLM).
+
+-> Synthesis : Claude prompt : "A Tiktok post by the user nam.dinaroffilcil is being flagged for potential misinformation. 
+The post is an image with audio over it.
+The image description is : This image shows a building on fire with a big plume of black smoke coming from it. Text on the screen says : "Urgent 🚨 Côté d'ivoire 🇨🇮".
+The audio transcript is : "La Côte d’Ivoire est bombardée par l’Iran. Oui, l’Iran vient de bombarder la Côte d’Ivoire, après avoir bombardé sept pays".
+The original post language is french.
+The image has been found in multiple reverse image search results. Here are the english texts of those articles :
+First :
+"Fifth Day of Military Escalation Between Israel and Iran
+AFP / June 17, 2025
+Israel announced on Tuesday that it had struck military sites in Iran and killed a senior commander in new airstrikes, to which Tehran responded with missile fire on the fifth day of confrontation between the two enemy states. Missiles and shell fragments fell in the Tel Aviv area without causing casualties, according to police. Rescue workers were deployed across several regions after "projectiles landed," the army said.
+The Israeli military announced the killing of senior Iranian commander Ali Shadmani in a nighttime strike on "a command center in the heart of Tehran."
+Iran for its part claimed to have destroyed "strategic targets" in Tel Aviv and Haifa using drones with "new and advanced weapons," warning that attacks would intensify in the hours ahead.
+Tehran has vowed to bomb Israel relentlessly until it halts its unprecedented air campaign, launched on June 13 with the stated aim of preventing Iran from acquiring a nuclear bomb.
+Since Friday, Israeli aircraft have struck hundreds of military and nuclear sites and killed several senior commanders. Civilians have also been killed on both sides as strikes hit urban areas and destroyed buildings.
+In Iran, Israeli strikes have killed at least 224 people and wounded more than a thousand, per an official toll from Sunday. In Israel, Iranian missile and drone salvos have killed at least 24.
+The conflict intruded on the G7 summit in Canada, which Donald Trump left early after advising Tehran residents to evacuate "immediately." G7 leaders stopped short of calling for an immediate end to hostilities, affirming Israel's right to "defend itself" while calling Iran the "main source of instability and terrorism in the region."
+China accused Trump of "pouring oil on the fire" and urged its nationals to leave Israel. The US announced it was deploying additional resources to the Middle East, and the aircraft carrier Nimitz was redirected from the South China Sea toward the region.
+Tehran's streets have remained largely deserted since the Israeli strikes began, with many shops closed. Israeli state television broadcasts were briefly interrupted during a strike while a presenter was on air criticizing Israel; she was seen fleeing the studio as ceiling debris fell around her.
+Israel claims to have destroyed the "main installation" at the Natanz uranium enrichment site, though the IAEA said Monday there was "no indication of an attack" on the underground portion of the facility.
+Netanyahu has called on the Iranian people to rise up against "tyranny" and suggested that killing Supreme Leader Khamenei would "end the conflict." However, a US official said Trump opposed an Israeli plan to assassinate Khamenei."
+
+Second :
+"Iran-Israel Exchange of Fire Continues
+June 17, 2025
+Israeli army announces killing of senior Iranian commander close to Khamenei
+Israeli fighter jets struck a command headquarters in the heart of Tehran, killing Ali Shadmani, who had commanded both the Islamic Revolutionary Guard Corps and the Iranian armed forces. His emergency command center was responsible for managing Iran's combat operations and approving its fire-power plans. Iran has not confirmed his death. According to Israeli forces, Shadmani was one of the generals closest to Supreme Leader Khamenei.
+France, Germany, and UK urge Iran to negotiate "as soon as possible"
+The foreign ministers of France, UK, and Germany urged Iran to return to nuclear negotiations "as soon as possible and without preconditions." They also called on Iran to avoid any hasty attacks on Western interests, any regional expansion, or any nuclear escalation. French President Macron, speaking from the G7 summit in Canada, praised US efforts to end the war and said the three European nations are ready to join talks with Iran.
+Israel hit by new Iranian missile attack at dawn
+Tuesday morning saw a new Iranian missile strike on Israel, though it was one of the quieter nights since the escalation began, with fewer than 10 projectiles fired and no casualties or damage reported. Strong explosions were heard in Tel Aviv and Jerusalem after sirens sounded.
+Israeli army announces "numerous strikes" on military targets in western Iran
+Israel carried out overnight "numerous large-scale strikes" on military targets in western Iran, hitting dozens of ground-to-ground missile storage and launch sites, as well as surface-to-air missile launchers and drone storage facilities. No specific locations were named. Loud explosions were reported in Tabriz, and witnesses in Tehran said Israeli airstrikes continued through the night.
+Israeli strike on Iranian public broadcaster kills three
+Monday's Israeli strike on the headquarters of Iranian state broadcaster IRIB, located in a residential Tehran neighborhood, killed at least three employees, including news editor Nima Rajabpour and administrator Masoumeh Azimi. The Israeli army had ordered an evacuation of the building hours before the strike."
+
+Searching the username nam.dinaroffilcil on a social analyser tool, those were the other profiles found with the same username :
+link         : https://chaturbate.com/nam.dinaroffilcil/
+rate         : %100.0
+status       : good
+title        : filtered
+language     : English
+country      : United States
+type         : Adult
+-----------------------
+found        : 2
+link         : https://dailymotion.com/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Dailymotion
+language     : English (Maybe)
+country      : United States
+type         : Arts and Entertainment > TV Movies and Streaming
+-----------------------
+found        : 2
+link         : https://facebook.com/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Facebook
+language     : French
+country      : United States
+type         : Computers Electronics and Technology > Social Networks and Online Communities
+-----------------------
+found        : 2
+link         : https://mercadolivre.com.br/perfil/nam.dinaroffilcil
+rate         : %100.0
+status       : good
+title        : Parece que esta página não existe
+language     : Portuguese (Maybe)
+country      : Brazil
+type         : E-commerce and Shopping > Marketplace
+-----------------------
+
+The image was not detected as AI generated.
+No deepfakes were detected.
+The post was made Sun, Mar 01, 2026, 08:40:20 PM GMT+1
+
+Your task is to synthesize this contextual information into a short format that can be useful for another LLM to determine whether this post is fake or true. Keep only the most relevant and useful information. Link together useful or connected information."
+
+
+-> Claude answer :
+"Post claim: Iran bombed Côte d'Ivoire (after allegedly bombing seven other countries).
+Image: Shows a burning building with heavy black smoke. Reverse image search links it to AFP and other coverage of the Israel-Iran conflict (June 2025) — specifically Israeli strikes on Iranian urban targets (buildings destroyed, smoke plumes). The image is almost certainly misattributed: it depicts damage from the Israel-Iran war, not any event in Côte d'Ivoire.
+Claim vs. reality: No credible source corroborates Iran bombing Côte d'Ivoire. The June 2025 Iran-Israel escalation involved strikes between those two countries only. The audio's claim that Iran "bombed seven countries" is also unsupported.
+Account signals: The TikTok username appears on adult content platforms (Chaturbate) and a Brazilian marketplace, suggesting a low-credibility or repurposed account. Facebook profile is in French, consistent with francophone African disinformation targeting.
+Media integrity: Image is not AI-generated; no deepfake detected. The manipulation is contextual — a real image reused with false geographic attribution.
+Verdict basis: High likelihood of deliberate misattribution. Real conflict imagery recycled with fabricated narrative targeting a French-speaking African audience."
+
+
+
+//Claim Identifier
+
+Claude prompt : "You are part of a process to identify potential misinformation. Your goal is to identify the claim(s) made by a user who posted something. Please list out all the claims. If you identify satire, say so instead. If you identify an opinion instead of claimed facts, please say so instead. If you identify bullshit, as in things that cannot be objectively determined as true or false, please say so instead.
+
+Here is the available information :
+
+Post claim: Iran bombed Côte d'Ivoire (after allegedly bombing seven other countries).
+Image: Shows a burning building with heavy black smoke. Reverse image search links it to AFP and other coverage of the Israel-Iran conflict (June 2025) — specifically Israeli strikes on Iranian urban targets (buildings destroyed, smoke plumes). The image is almost certainly misattributed: it depicts damage from the Israel-Iran war, not any event in Côte d'Ivoire.
+Claim vs. reality: No credible source corroborates Iran bombing Côte d'Ivoire. The June 2025 Iran-Israel escalation involved strikes between those two countries only. The audio's claim that Iran "bombed seven countries" is also unsupported.
+Account signals: The TikTok username appears on adult content platforms (Chaturbate) and a Brazilian marketplace, suggesting a low-credibility or repurposed account. Facebook profile is in French, consistent with francophone African disinformation targeting.
+Media integrity: Image is not AI-generated; no deepfake detected. The manipulation is contextual — a real image reused with false geographic attribution.
+Verdict basis: High likelihood of deliberate misattribution. Real conflict imagery recycled with fabricated narrative targeting a French-speaking African audience."
+
+
+-> Claude Answer : 
+"Claims made:
+
+Iran bombed Côte d'Ivoire.
+Iran has bombed seven other countries (prior to or alongside Côte d'Ivoire).
+
+Assessment:
+Both claims are almost certainly deliberate misinformation, not mere error. Specifically:
+
+The image is real but misattributed — it documents the Israel-Iran conflict (June 2025), not any event in Côte d'Ivoire.
+No credible source supports Iranian strikes on Côte d'Ivoire or on "seven countries."
+The account shows signals consistent with a low-credibility or repurposed profile targeting francophone African audiences.
+
+The manipulation is contextual: authentic conflict imagery recycled with a fabricated geographic narrative."
+
+-> Further prompt :
+"For every claim, generate one or two search engine questions that could help determining if the claim is true or not."
+
+-> Answer :
+"Claim 1: Iran bombed Côte d'Ivoire
+"Iran Côte d'Ivoire strike attack 2025"
+"Abidjan bombing June 2025"
+Claim 2: Iran bombed seven other countries
+"Iran military strikes multiple countries 2025"
+"How many countries has Iran attacked 2025""
+
+
+
+//Evidence Retrieval
+Using the simple DuckduckGo python API and asking for the top 3 results, with every time the URL, the page title, and the abstract (no scrapping for now because that is much more complicated to do), we get this :
+
+-> Iran Côte d'Ivoire strike attack 2025
+
+https://www.africa-press.net/cotedivoire/dossiers/positions-africaines-face-a-la-guerre-israel-iran
+Positions Africaines Face À la Guerre IsraëL–Iran - Côte d'Ivoire
+Jun 19, 2025 · Plusieurs pays et organisations africains ont exprimé leur ferme condamnation des attaques israéliennes contre l’Iran, mis en garde contre leurs répercussions sur l’ensemble du Moyen …
+https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites
+2025 United States strikes on Iranian nuclear sites - Wikipedia
+President Trump said the strikes "completely and totally obliterated" Iran's key nuclear enrichment facilities; a final bomb damage assessment of the strikes was still ongoing as of August 2025.
+https://www.counterextremism.com/countries/cote-d-ivoire-extremism-and-terrorism
+Côte d'Ivoire: Extremism and Terrorism - Counter Extremism Project
+Analysts warned that the terrorist threat was spreading south from the restive Sahel region to countries that were largely free of jihadist violence, such as Côte d’Ivoire. The Kafolo attack marked the first …
+
+
+-> Abidjan bombing June 2025
+
+https://www.france24.com/en/africa/20250826-armed-men-kill-four-in-attack-in-ivory-coast-near-burkina-faso-border
+Armed men kill four in attack in Ivory Coast near Burkina Faso border ...
+Aug 26, 2025 · Armed men killed four villagers and left another missing in northeastern Ivory Coast near Burkina Faso, the army said Tuesday. The attack comes amid fears of a spillover of the Sahel …
+https://www.nytimes.com/2025/06/16/world/africa/africa-terrorism-trump-ivory-coast.html
+Sahel Crisis Goes Coastal as Insurgents Push Toward the Atlantic
+Jun 16, 2025 · Elian Peltier and Arlette Bashizi traveled 500 miles across northern Ivory Coast to document the spread of jihadist insurgents in West Africa. At a market in Tougbo, a small town in …
+https://factuel.afp.com/doc.afp.com.43F26WE
+Ces images ne montrent pas une récente attaque terroriste en Côte d ...
+Apr 25, 2025 · La presse locale et internationale ne fait aucune mention d’une quelconque attaque terroriste survenue à Abidjan aux alentours du 27 mars 2025. Le bureau de l’AFP en Côte d’Ivoire, …
+
+
+-> Iran military strikes multiple countries 2025
+
+https://www.nbcnews.com/data-graphics/iran-war-drones-missile-strikes-military-attack-capabilities-rcna263382
+What we know about Iran’s military capabilities by tracking drone and ...
+Mar 27, 2026 · After nearly four weeks of heavy bombardment by U.S. and Israeli forces, Iran is still able to assail its Persian Gulf neighbors and Israel with daily missile and drone attacks.
+https://www.cbsnews.com/news/map-iran-strike-locations/
+Map shows attack locations across Iran, and Iran's retaliatory strikes ...
+Mar 3, 2026 · A map created by the CBS News data team shows the strike locations across Iran, including the capital and the site of a major nuclear facility.
+https://time.com/7382074/countries-trump-has-ordered-strikes-on-second-term/
+Countries Trump Has Ordered Strikes On in His Second Term - TIME
+Mar 2, 2026 · And the impact is being felt beyond the Middle East, with Iran launching widespread retaliatory strikes against the U.S.-aligned Gulf states.
+
+
+-> How many countries has Iran attacked 2025
+
+https://www.zhihu.com/question/545216941
+many与many of有什么区别？ - 知乎
+Jul 25, 2022 · many of 会有个范围，可以理解为特指。many可理解为泛指。 for example: many students like playing computer games.这里的很多学生无范围限制，或者理解为所有的学生当中有很多这样。 …
+https://www.zhihu.com/question/56567841
+many+名词复数和many a＋名词单数有什么区别吗？ - 知乎
+Mar 3, 2017 · Many是广泛使用的说法，而many a是一种比较古老或者只见于文学作品或者诗歌中的说法，但是在正式英语中（比如书面）依然要使用many而不是many a。图1也可以看出，many a的使用 …
+https://www.zhihu.com/question/446554195
+英语表达“许多”为什么要区分“many”和“much”？ - 知乎
+Feb 26, 2021 · many和much都强调有“许多”东西。 many后面跟“可数名词的复数”，much后面跟“不可数名词”。 I have many apples. apple可数。 I have much money. money不可数。 对应的询问数量 …
+
+
+
+//Evidence Analysis
+No databases to match source trustworthiness as of yet, but it's likely the results for the last question would be removed, seeing as they have "question" in the url, suggesting a forum based system, and thus not a trustworthy source.
+
+LLM opinion on retrieved information and summary :
+-> Prompt : "You are part of a process to identify potential misinformation. Claims were identified and are as follow : 
+Claim 1: Iran bombed Côte d'Ivoire.
+Claim 2: Iran bombed seven other countries.
+To prove or disprove these claims, web searches were done. Your goal is to analyse the results of those web searches, and determine whether they are enough to find if the claims are true or false. 
+If they are enough, please summarize the results and the insights we can infer from them. In that case, also determine which were most useful, and how. 
+In the other case, please write further questions which would be needed to answer whether the claim is true or false.
+Either way, take into account source trustworthiness.
+The following are the web searches and their top 3 results, with, in order, the page URL, the page title, and its abstract :
+
+First search : "Iran Côte d'Ivoire strike attack 2025"
+https://www.africa-press.net/cotedivoire/dossiers/positions-africaines-face-a-la-guerre-israel-iran
+Positions Africaines Face À la Guerre IsraëL–Iran - Côte d'Ivoire
+Jun 19, 2025 · Plusieurs pays et organisations africains ont exprimé leur ferme condamnation des attaques israéliennes contre l’Iran, mis en garde contre leurs répercussions sur l’ensemble du Moyen …
+https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites
+2025 United States strikes on Iranian nuclear sites - Wikipedia
+President Trump said the strikes "completely and totally obliterated" Iran's key nuclear enrichment facilities; a final bomb damage assessment of the strikes was still ongoing as of August 2025.
+https://www.counterextremism.com/countries/cote-d-ivoire-extremism-and-terrorism
+Côte d'Ivoire: Extremism and Terrorism - Counter Extremism Project
+Analysts warned that the terrorist threat was spreading south from the restive Sahel region to countries that were largely free of jihadist violence, such as Côte d’Ivoire. The Kafolo attack marked the first …
+
+
+Second search : "Abidjan bombing June 2025"
+https://www.france24.com/en/africa/20250826-armed-men-kill-four-in-attack-in-ivory-coast-near-burkina-faso-border
+Armed men kill four in attack in Ivory Coast near Burkina Faso border ...
+Aug 26, 2025 · Armed men killed four villagers and left another missing in northeastern Ivory Coast near Burkina Faso, the army said Tuesday. The attack comes amid fears of a spillover of the Sahel …
+https://www.nytimes.com/2025/06/16/world/africa/africa-terrorism-trump-ivory-coast.html
+Sahel Crisis Goes Coastal as Insurgents Push Toward the Atlantic
+Jun 16, 2025 · Elian Peltier and Arlette Bashizi traveled 500 miles across northern Ivory Coast to document the spread of jihadist insurgents in West Africa. At a market in Tougbo, a small town in …
+https://factuel.afp.com/doc.afp.com.43F26WE
+Ces images ne montrent pas une récente attaque terroriste en Côte d ...
+Apr 25, 2025 · La presse locale et internationale ne fait aucune mention d’une quelconque attaque terroriste survenue à Abidjan aux alentours du 27 mars 2025. Le bureau de l’AFP en Côte d’Ivoire, …
+
+
+Third search : "Iran military strikes multiple countries 2025"
+https://www.nbcnews.com/data-graphics/iran-war-drones-missile-strikes-military-attack-capabilities-rcna263382
+What we know about Iran’s military capabilities by tracking drone and ...
+Mar 27, 2026 · After nearly four weeks of heavy bombardment by U.S. and Israeli forces, Iran is still able to assail its Persian Gulf neighbors and Israel with daily missile and drone attacks.
+https://www.cbsnews.com/news/map-iran-strike-locations/
+Map shows attack locations across Iran, and Iran's retaliatory strikes ...
+Mar 3, 2026 · A map created by the CBS News data team shows the strike locations across Iran, including the capital and the site of a major nuclear facility.
+https://time.com/7382074/countries-trump-has-ordered-strikes-on-second-term/
+Countries Trump Has Ordered Strikes On in His Second Term - TIME
+Mar 2, 2026 · And the impact is being felt beyond the Middle East, with Iran launching widespread retaliatory strikes against the U.S.-aligned Gulf states.
+
+
+Fourth search : "How many countries has Iran attacked 2025"
+-> no relevant results"
+
+
+Claude answer : 
+"Claim 1: Iran bombed Côte d'Ivoire — FALSE
+The searches return no evidence whatsoever of an Iranian strike on Côte d'Ivoire. The results about that country relate to jihadist spillover from the Sahel and a debunked viral claim about a terrorist attack in Abidjan (the AFP fact-check explicitly notes no such attack occurred). The Africa Press result discusses African reactions to Israeli-Iranian tensions, not any Iranian action against Côte d'Ivoire. The absence of coverage in NBC News, France24, AFP, and the NYT — all credible outlets with Africa desks — makes this claim highly implausible. Most useful source: the AFP fact-check (factuel.afp.com), which directly addresses a false claim circulating about an attack in Côte d'Ivoire around a similar period.
+Claim 2: Iran bombed seven other countries — UNVERIFIABLE AS STATED
+The results confirm Iran conducted retaliatory strikes against U.S.-aligned Gulf states following U.S. and Israeli bombardment of its nuclear facilities, but the specific count of seven countries is not established. The NBC News and Time pieces confirm Iran struck "Persian Gulf neighbors" and engaged in widespread retaliation, but no source enumerates seven distinct countries. The CBS News map covers strikes on Iran, not by Iran. The fourth search returned nothing useful.
+Further questions needed to evaluate Claim 2:
+
+Which specific countries does the claim allege Iran struck, and in what timeframe?
+Do any open-source conflict trackers (ACLED, Armed Conflict Location & Event Data) log Iranian strikes by country between mid-2025 and early 2026?
+What do Gulf state governments or CENTCOM reports say about countries targeted?
+
+Source quality note: The credible sources here (AFP, NYT, NBC, Time, CBS) are reliable. The Africa Press result is lower-tier but consistent with others. No trustworthy source supports Claim 1 in any form."
+
+
+-> Need to refine the prompt more, especially in the parts where we ask the LLM for more questions, because the ones given by Claude here are not search engine viable. 
+
+
+//Claim Judge
+
+Prompt : 
+"You are part of a process to identify potential misinformation. Claims were identified and are as follow : 
+Claim 1: Iran bombed Côte d'Ivoire.
+Claim 2: Iran bombed seven other countries.
+Those claims were identified in a Tiktok post, from which the following information was found :
+Post claim: Iran bombed Côte d'Ivoire (after allegedly bombing seven other countries).
+Image: Shows a burning building with heavy black smoke. Reverse image search links it to AFP and other coverage of the Israel-Iran conflict (June 2025) — specifically Israeli strikes on Iranian urban targets (buildings destroyed, smoke plumes). The image is almost certainly misattributed: it depicts damage from the Israel-Iran war, not any event in Côte d'Ivoire.
+Claim vs. reality: No credible source corroborates Iran bombing Côte d'Ivoire. The June 2025 Iran-Israel escalation involved strikes between those two countries only. The audio's claim that Iran "bombed seven countries" is also unsupported.
+Account signals: The TikTok username appears on adult content platforms (Chaturbate) and a Brazilian marketplace, suggesting a low-credibility or repurposed account. Facebook profile is in French, consistent with francophone African disinformation targeting.
+Media integrity: Image is not AI-generated; no deepfake detected. The manipulation is contextual — a real image reused with false geographic attribution.
+Verdict basis: High likelihood of deliberate misattribution. Real conflict imagery recycled with fabricated narrative targeting a French-speaking African audience.
+
+Further web searches were synthesized in the following information :
+Claim 1: Iran bombed Côte d'Ivoire — FALSE
+The searches return no evidence whatsoever of an Iranian strike on Côte d'Ivoire. The results about that country relate to jihadist spillover from the Sahel and a debunked viral claim about a terrorist attack in Abidjan (the AFP fact-check explicitly notes no such attack occurred). The Africa Press result discusses African reactions to Israeli-Iranian tensions, not any Iranian action against Côte d'Ivoire. The absence of coverage in NBC News, France24, AFP, and the NYT — all credible outlets with Africa desks — makes this claim highly implausible. Most useful source: the AFP fact-check (factuel.afp.com), which directly addresses a false claim circulating about an attack in Côte d'Ivoire around a similar period.
+Claim 2: Iran bombed seven other countries — UNVERIFIABLE AS STATED
+The results confirm Iran conducted retaliatory strikes against U.S.-aligned Gulf states following U.S. and Israeli bombardment of its nuclear facilities, but the specific count of seven countries is not established. The NBC News and Time pieces confirm Iran struck "Persian Gulf neighbors" and engaged in widespread retaliation, but no source enumerates seven distinct countries. The CBS News map covers strikes on Iran, not by Iran. The fourth search returned nothing useful.
+
+With all of that, please determine whether the claims are True, False, or whether further information is needed."
+
+
+Claude answer :
+"Verdict
+Claim 1: Iran bombed Côte d'Ivoire — FALSE
+The evidence against this claim is convergent and strong:
+
+No credible outlet (AFP, France24, NBC, NYT) reported any Iranian strike on Côte d'Ivoire.
+AFP fact-checkers directly debunked a false claim about an attack in Côte d'Ivoire circulating in the same period.
+The image used is independently traced to the Israel-Iran conflict (June 2025) — a real image with fabricated geographic attribution.
+The account shows signals of low credibility and patterns consistent with francophone African disinformation operations.
+
+The manipulation is contextual, not technical: authentic conflict imagery recycled with a false narrative. This is a deliberate misattribution, not a matter of ambiguity.
+
+Claim 2: Iran bombed seven other countries — FALSE AS STATED / UNVERIFIABLE IN DETAIL
+
+Confirmed: Iran did conduct retaliatory strikes against targets in the Persian Gulf region following U.S. and Israeli strikes on its nuclear facilities.
+Not confirmed: The figure of "seven countries" is unsupported by any credible source. No outlet enumerates seven distinct countries struck by Iran.
+The specific number appears fabricated or heavily exaggerated to amplify the narrative, a common disinformation technique used to make a partially grounded claim seem more dramatic and credible.
+
+Given that the "seven countries" figure is the operative claim (not merely that Iran struck any targets), and no source corroborates it, this should be rated false as stated. Further information would only be needed if the goal were to establish the precise accurate count of countries Iran did strike — which is a separate question from whether "seven" is true (it is not established).
+
+Overall assessment: This is a coordinated piece of contextual disinformation — real imagery from a real conflict, stripped of context and redeployed with fabricated geography and inflated casualty scope, targeting a French-speaking African audience through a low-credibility account."
+
+
+//Decision evaluator :
+
+Prompt : "You are part of a process to identify potential misinformation. Claims were identified and are as follow : 
+Claim 1: Iran bombed Côte d'Ivoire.
+Claim 2: Iran bombed seven other countries.
+Those claims were identified in a Tiktok post
+The post is an image with audio over it.
+The image description is : This image shows a building on fire with a big plume of black smoke coming from it. Text on the screen says : "Urgent 🚨 Côté d'ivoire 🇨🇮".
+The audio transcript is : "La Côte d’Ivoire est bombardée par l’Iran. Oui, l’Iran vient de bombarder la Côte d’Ivoire, après avoir bombardé sept pays".
+The original post language is french.
+
+After the entire pipeline was executed, the results were the following :
+"Verdict
+Claim 1: Iran bombed Côte d'Ivoire — FALSE
+The evidence against this claim is convergent and strong:
+
+No credible outlet (AFP, France24, NBC, NYT) reported any Iranian strike on Côte d'Ivoire.
+AFP fact-checkers directly debunked a false claim about an attack in Côte d'Ivoire circulating in the same period.
+The image used is independently traced to the Israel-Iran conflict (June 2025) — a real image with fabricated geographic attribution.
+The account shows signals of low credibility and patterns consistent with francophone African disinformation operations.
+
+The manipulation is contextual, not technical: authentic conflict imagery recycled with a false narrative. This is a deliberate misattribution, not a matter of ambiguity.
+
+Claim 2: Iran bombed seven other countries — FALSE AS STATED / UNVERIFIABLE IN DETAIL
+
+Confirmed: Iran did conduct retaliatory strikes against targets in the Persian Gulf region following U.S. and Israeli strikes on its nuclear facilities.
+Not confirmed: The figure of "seven countries" is unsupported by any credible source. No outlet enumerates seven distinct countries struck by Iran.
+The specific number appears fabricated or heavily exaggerated to amplify the narrative, a common disinformation technique used to make a partially grounded claim seem more dramatic and credible.
+
+Given that the "seven countries" figure is the operative claim (not merely that Iran struck any targets), and no source corroborates it, this should be rated false as stated. Further information would only be needed if the goal were to establish the precise accurate count of countries Iran did strike — which is a separate question from whether "seven" is true (it is not established).
+
+Overall assessment: This is a coordinated piece of contextual disinformation — real imagery from a real conflict, stripped of context and redeployed with fabricated geography and inflated casualty scope, targeting a French-speaking African audience through a low-credibility account."
+
+Your goal is to state whether the claims found are coherent with the post information available for you, and whether the claim conclusions make sense."
+
+
+Claude answer :
+"Coherence Assessment
+Claim extraction — coherent
+Both claims map directly onto the audio transcript. Claim 1 ("Iran bombed Côte d'Ivoire") corresponds to "La Côte d'Ivoire est bombardée par l'Iran" and Claim 2 ("Iran bombed seven other countries") to "après avoir bombardé sept pays". The extraction is accurate and complete.
+Claim 1 verdict (FALSE) — coherent and well-supported
+The verdict aligns with the post's mechanics. The image shows a burning building with "Côte d'Ivoire" text overlaid, which is a classic contextual misattribution setup — authentic conflict imagery, fabricated geographic label. The conclusion that the image originates from the Israel-Iran conflict rather than Côte d'Ivoire is consistent with how this disinformation technique operates. The verdict is sound.
+Claim 2 verdict (FALSE AS STATED) — coherent and appropriately nuanced
+The audio makes a specific, falsifiable claim: seven countries. The verdict correctly distinguishes between the verifiable kernel (Iran did conduct strikes in the region) and the unverified specific claim (the number seven). Rating it "false as stated" rather than a blanket false is the correct analytical move, since labeling the entire claim false without qualification would itself be imprecise.
+One flag worth noting
+The verdict references events from "June 2025" (Israel-Iran conflict, Iranian retaliatory strikes). The current date is April 24, 2026, which means those events would now be several months old and well-documented. This actually strengthens both verdicts — there is ample time for credible reporting to have emerged, and none apparently corroborates either claim. The pipeline's reliance on this timeline is coherent.
+Overall
+The claims are faithfully extracted from the post content, the verdicts are logically consistent with the evidence described, and the analytical framework (contextual disinformation, image misattribution, inflated numeric claims) fits the post's structure. No incoherence detected"
+
+
+//Explanation generation
+
+First, the answers given by the AI would already be very good explanations. The logic really follows what a fact-checker journalist would do : reverse image search shows incoherent timeline, no relevant information supporting the claims can be found when searching online, and nuance is appropriate. Explanation would include putting all of that into a more coherent and easily readable form, like a graph.
+
+
+
+//Exemple Conclusion
+
+While I didn't use the tools that would be used in the pipeline, as well as Claude instead of a local Qwen installation, I feel like this shows the potential of this system. Multimodality is taken into account, a journalistic reasonning is followed, and the results are very good. I feel like this could be automatized pretty well, and it would lead to truly explainable AFC. 
+
+

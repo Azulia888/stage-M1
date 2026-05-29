@@ -1,0 +1,10 @@
+{
+	"ToolName": "NER",
+	"Input": ["Image", "Video", "Keyframes", "Transcript", "Description", "OCR", "Metadata"],
+	"hasRun": 0, 
+	"Output": "Fox News. Donald Trump, Rob Porter, Jonathan Swan",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

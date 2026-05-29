@@ -1,0 +1,10 @@
+{
+	"ToolName": "AI Detection",
+	"Input": ["Image", "Video"],
+	"hasRun": 0, 
+	"Output": "",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

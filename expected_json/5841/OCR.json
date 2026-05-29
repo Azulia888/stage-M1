@@ -1,0 +1,10 @@
+{
+	"ToolName": "OCR",
+	"Input": ["Image", "Video", "Keyframes"],
+	"hasRun": 0, 
+	"Output": "Like, Sammaditthi Tv, Sri Lanka",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}

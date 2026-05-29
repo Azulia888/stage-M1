@@ -1,0 +1,10 @@
+{
+	"ToolName": "Metadata Analysis",
+	"Input": ["Metadata"],
+	"hasRun": 0, 
+	"Output": "Video posted on Twitter on August 30, 2023, at 7:04PM.",
+	"Explanation": "",
+	"Confidence": 0,
+	"ConfidenceExplanation": "",
+	"CorroboratingTools": []
+}
