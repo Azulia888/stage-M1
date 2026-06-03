@@ -1,0 +1,22 @@
+//video description
+
+-> frame description :
+"Describe what is happening in this video frame concisely. The subtitle at this moment reads: {subtitle}"
+
+
+-> resume:
+"You are given timestamped visual descriptions of frames from a video. Write a coherent, fluent textual summary of the full video content. Be specific and informative."
+
+"You are given timestamped visual descriptions of frames from a video along with its subtitle content. Write a coherent, fluent textual summary of the full video content. Be specific and informative."
+
+"You are given timestamped visual descriptions of frames from a video along with its subtitle content. Write a coherent, fluent textual summary of the full video content. 
+This resume needs to be able to stand on its own, without added frame description or subtitles. Be specific and informative."
+
+
+//ocr
+
+"Extract all the text from this image. Output ONLY the extracted text. Do not include any introductory phrases, commentary, or markdown formatting like ```text."
+
+"Extract all the text from this image. If the text isn't in english, translate it first. Output ONLY the extracted text. Do not include any introductory phrases, commentary, or markdown formatting like ```text."
+
+"Write all the text you can see on this image, and ONLY the text you can see, nothing else. If the text isn't in english, translate it in english first. "
