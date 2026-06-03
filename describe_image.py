@@ -15,7 +15,7 @@ def describe_image(image_path: str, prompt: str = "Describe this image in detail
         raise FileNotFoundError(f"Image not found: {image_path}")
 
     response = ollama.chat(
-        model="qwen3.5:2b",  
+        model="qwen3.5:4b",  
         messages=[
             {
                 "role": "user",
@@ -34,6 +34,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     image_path = sys.argv[1]
-    prompt = sys.argv[2] if len(sys.argv) > 2 else "Describe this image in detail."
+    prompt = sys.argv[2] if len(sys.argv) > 2 else "Write all the text you can see on this image, and ONLY the text you can see, nothing else. If the text isn't in english, translate it in english first. "
 
     print(describe_image(image_path, prompt))
