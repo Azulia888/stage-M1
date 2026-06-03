@@ -25,62 +25,38 @@ ask for permission to download the veritas dataset (mail of the guy is on the pa
 -> Beyond Fact-Checking: A Scalable, Domain-Agnostic, and Explainable System for Automated Fake News Detection : https://ceur-ws.org/Vol-3986/short2.pdf
 /!\ -> FACT-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning : https://arxiv.org/abs/2505.16836v3
 /!\ -> “Image, Tell me your story!” Predicting the original meta-context of visual misinformation : https://aclanthology.org/2024.emnlp-main.448/
-
-
-//to read absolutely
-
-
-
+-> A Survey on Automated Fact-Checking : https://arxiv.org/pdf/2108.11896
+-> Examining the role of information integration in the continued influence effect using an event segmentation approach : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271566
+-> Unraveling the benefits of experiencing errors during learning: Definition, modulating factors, and explanatory theories : https://pubmed.ncbi.nlm.nih.gov/34820785/
+-> MMOOC: A Multimodal Misinformation Dataset for Out-of-Context News Analysis : https://link.springer.com/chapter/10.1007/978-981-97-5101-3_24
+-> Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection : https://aclanthology.org/2020.lrec-1.755/
+-> Towards a Multi-modal Multi-Label Election-Context Repository for Classifying Misinformation : https://workshop-proceedings.icwsm.org/abstract.php?id=2025_26
+-> Fin-Fact: A Benchmark Dataset for Multimodal Financial Fact-Checking and Explanation Generation : https://dl.acm.org/doi/10.1145/3701716.3715292
+-> ClimateViz: A Benchmark for Statistical Reasoning and Fact Verification on Scientific Charts : https://arxiv.org/abs/2506.08700
+-> Dataset for multimodal fake news detection and verification tasks : https://www.sciencedirect.com/science/article/pii/S2352340924004098?via%3Dihub
+-> Zero-shot and Few-shot Learning with Instruction-following LLMs for Claim Matching in Automated Fact-checking : https://aclanthology.org/2025.coling-main.650/ 
+-> Dis2Dis: Explaining Ambiguity in Fact-Checking : https://aclanthology.org/2025.findings-naacl.14/
+-> AmbiFC: Fact-Checking Ambiguous Claims with Evidence : https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00629/119057/AmbiFC-Fact-Checking-Ambiguous-Claims-with
+-> MM-Claims: A Dataset for Multimodal Claim Detection in Social Media : https://aclanthology.org/2022.findings-naacl.72/
+-> From Chaos to Clarity: Claim Normalization to Empower Fact-Checking : https://aclanthology.org/2023.findings-emnlp.439/
+-> 'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection : https://dl.acm.org/doi/10.1145/3746275.3762215
+-> Multimodal and Multilingual Fact-Checked Article Retrieval : https://dl.acm.org/doi/10.1145/3731715.3733402
+-> MM-SOC: Benchmarking Multimodal Large Language Models in Social Media Platforms : https://aclanthology.org/2024.findings-acl.370/
+-> COVE: COntext and VEracity prediction for out-of-context images : https://arxiv.org/abs/2502.01194
+-> VERITE: a Robust benchmark for multimodal misinformation detection accounting for unimodal bias : https://link.springer.com/article/10.1007/s13735-023-00312-6
+-> https://rolli.ai/
 
 
 
 //potentially interesting
 
-Examining the role of information integration in the continued influence effect using an event segmentation approach : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271566
-
-Unraveling the benefits of experiencing errors during learning: Definition, modulating factors, and explanatory theories : https://pubmed.ncbi.nlm.nih.gov/34820785/
-
-MMOOC: A Multimodal Misinformation Dataset for Out-of-Context News Analysis : https://link.springer.com/chapter/10.1007/978-981-97-5101-3_24
-
-Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection : https://aclanthology.org/2020.lrec-1.755/
-
-Towards a Multi-modal Multi-Label Election-Context Repository for Classifying Misinformation : https://workshop-proceedings.icwsm.org/abstract.php?id=2025_26
-
-Fin-Fact: A Benchmark Dataset for Multimodal Financial Fact-Checking and Explanation Generation : https://dl.acm.org/doi/10.1145/3701716.3715292
-
-ClimateViz: A Benchmark for Statistical Reasoning and Fact Verification on Scientific Charts : https://arxiv.org/abs/2506.08700
-
-Dataset for multimodal fake news detection and verification tasks : https://www.sciencedirect.com/science/article/pii/S2352340924004098?via%3Dihub
-
-Zero-shot and Few-shot Learning with Instruction-following LLMs for Claim Matching in Automated Fact-checking : https://aclanthology.org/2025.coling-main.650/ 
-
-Dis2Dis: Explaining Ambiguity in Fact-Checking : https://aclanthology.org/2025.findings-naacl.14/
-
-AmbiFC: Fact-Checking Ambiguous Claims with Evidence : https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00629/119057/AmbiFC-Fact-Checking-Ambiguous-Claims-with
-
-MM-Claims: A Dataset for Multimodal Claim Detection in Social Media : https://aclanthology.org/2022.findings-naacl.72/
-
-From Chaos to Clarity: Claim Normalization to Empower Fact-Checking : https://aclanthology.org/2023.findings-emnlp.439/
-
-'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection : https://dl.acm.org/doi/10.1145/3746275.3762215
-
-Multimodal and Multilingual Fact-Checked Article Retrieval : https://dl.acm.org/doi/10.1145/3731715.3733402
-
-MM-SOC: Benchmarking Multimodal Large Language Models in Social Media Platforms : https://aclanthology.org/2024.findings-acl.370/
-
-COVE: COntext and VEracity prediction for out-of-context images : https://arxiv.org/abs/2502.01194
-
-Detecting and Grounding Multi-Modal Media Manipulation : https://ieeexplore.ieee.org/document/10203815
+Detecting and Grounding Multi-Modal Media Manipulation : https://ieeexplore.ieee.org/document/10203815 (paywall ;-;)
 
 HintsOfTruth: A Multimodal Checkworthiness Detection Dataset with Real and Synthetic Claims : https://arxiv.org/abs/2502.11753
 
-VERITE: a Robust benchmark for multimodal misinformation detection accounting for unimodal bias : https://link.springer.com/article/10.1007/s13735-023-00312-6
-
 NewsCLIPpings: Automatic Generation of Out-of-Context Multimodal Media : https://aclanthology.org/2021.emnlp-main.545/
 
-https://rolli.ai/
 
-A Survey on Automated Fact-Checking : https://arxiv.org/pdf/2108.11896
 
 
 

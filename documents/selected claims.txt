@@ -4,16 +4,16 @@ selected claims :
 
 //videos
 
-103845 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103845 (ai gen)
-103998 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103998 (miscontext)
-286 - https://veritas.mai.informatik.tu-darmstadt.de/claims/286 (false stuff said by fox news)
-1471 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1471 (miscontext)
-4496 - https://veritas.mai.informatik.tu-darmstadt.de/claims/4496 (miscontext)
-102292 - https://veritas.mai.informatik.tu-darmstadt.de/claims/102292 (ai gen)
-5360 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5360 (manipulated clips)
-1359 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1359 (miscontext)
-5464 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5464 (false)
-7598 - https://veritas.mai.informatik.tu-darmstadt.de/claims/7598 (false)
+103845 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103845 (ai gen) (0:10)
+103998 - https://veritas.mai.informatik.tu-darmstadt.de/claims/103998 (miscontext) (0:11)
+286 - https://veritas.mai.informatik.tu-darmstadt.de/claims/286 (false stuff said by fox news) (2:44)
+1471 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1471 (miscontext) (4:52)
+4496 - https://veritas.mai.informatik.tu-darmstadt.de/claims/4496 (miscontext) (1:33)
+102292 - https://veritas.mai.informatik.tu-darmstadt.de/claims/102292 (ai gen) (0:18)
+5360 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5360 (manipulated clips) (1:00)
+1359 - https://veritas.mai.informatik.tu-darmstadt.de/claims/1359 (miscontext) (0:16)
+5464 - https://veritas.mai.informatik.tu-darmstadt.de/claims/5464 (false) (1:30)
+7598 - https://veritas.mai.informatik.tu-darmstadt.de/claims/7598 (false) (4:36)
 
 
 
