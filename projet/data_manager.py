@@ -18,19 +18,19 @@ class DataManager:
         self.metadata = None
         self.ocr = None
         self.transcript = None
-        self.toolResult = None
+        self.toolResult = {}  
 
     def addToolResult(self, toolJson: dict):
-        if ("ToolName" in toolJson):
+        if "ToolName" in toolJson:
             self.toolResult[toolJson["ToolName"]] = toolJson
 
-            if (toolJson["ToolName"] == "Description"):
+            if toolJson["ToolName"] == "Description":
                 self.description = toolJson["Output"]
-            if (toolJson["ToolName"] == "Metadata"):
+            if toolJson["ToolName"] == "Metadata":
                 self.metadata = toolJson["Output"]
-            if (toolJson["ToolName"] == "OCR"):
+            if toolJson["ToolName"] == "OCR":
                 self.ocr = toolJson["Output"]
-            if (toolJson["ToolName"] == "Keyframes"):
+            if toolJson["ToolName"] == "Keyframes":
                 self.keyframes = toolJson["Output"]
-            if (toolJson["ToolName"] == "Transcript"):
+            if toolJson["ToolName"] == "Transcript":
                 self.transcript = toolJson["Output"]

@@ -1,0 +1,44 @@
+#Pipeline d'un fact checker :
+
+//Trouver une source :
+
+-> Veille sur les réseaux sociaux pour trouver la fake news originelle
+-> Vérification éditoriale pour savoir si la fake news doit être fact-checkée ou si il est préférable de l'ignorer. Il faut par exemple faire attention à l'effet Streisand, donc ne pas fact-checker des fake news qui ne sont pour l'instant que peu connues. Il faut aussi prendre en compte la faisabilité du fact-check, ie combien de temps trouver la factualité prendrait. Enfin, certaines choses ne doivent pas être fact-checkées, comme le "bullshit" (par exemple, ce que raconte Donald Trump sur les réseaux).
+
+//Authenticité
+
+-> Une fois la news trouvée et validée, le fact-checker s'assure de l'authenticité du média ; processus de forensics. Est-ce que l'image/vidéo est générée par IA, est-elle manipulée de quelconque manière, etc. Des outils informatiques sont utilisés, mais l'intuition du journaliste est tout aussi importante lors de cette étape.
+-> Si le fact-checker pense identifier quelque chose de louche, alors les vérifications ne s'arrêtent pas là. Si le média inclut une personnalité publique, alors le journaliste ira souvent leur demander confirmation que les paroles sont fabriquées. Pareillement, un faux post de réseaux sociaux sera vérifié. Si le journaliste peut utiliser son intuition ou des outils informatiques, il ne s'en contente jamais.
+-> Si le média est authentique, alors il passe à la vérification de sa véracité.
+
+//Véracité
+
+-> En fonction de la nature de la fake news, cela peut-être très simple ou impossiblement complexe. La manipulation de chiffres, la réitaration de fausses idées populaires, ou les simples mensonges sont facilement démentelables.
+-> Cependant, même dans les cas les plus évidents, les fact-checkers ne se contentent jamais d'une seule source, et en demandent au moins deux. Et ces sources doivent idéalement être des sources premières (instituts de recherches, données officielles), et non pas des sources secondaires (Wikipédia, autres articles de journaux).
+-> Mais parfois, un média peut ne contenir aucune information objectivement fausse, mais tout de même être une fake news, grâce à la manipulation du contexte.
+
+//Contexte
+
+-> La manipulation du contexte est surtout importante quand la fake news est multimodale ; elle contient une image ou une vidéo qui accompage un texte ou un audio.
+-> L'image ou la vidéo peut alors être prise en dehors de son contexte. En elle-même, elle n'est pas fausse, elle n'est pas manipulée ou trafiquée, mais elle est sortie de son contexte initial afin de promouvoir une idée fausse.
+-> On peut par exemple penser à des images de manifestations prises à Paris en 2014, mais qui sont annoncées comme étant des extraits d'une révolution aux Etats-Unis en 2026.
+-> Le journaliste utilise alors différents outils qui lui permettent de retracer le média original, le plus notoire étant la reverse par image inversée.
+-> Enfin, le contexte peut aussi indiquer d'autres informations. Il peut permettre une analyse sémiotique de ce qu'on essaie d'analyser.
+-> Par exemple, si le média est posté par The Onion ou Le Gorafi, alors le contexte indique que l'information est du sarcasme, et qu'elle ne doit pas être prise au sérieux. A l'inverse, un compte d'extrême droite ou de théoricien du complot peut indiquer plus facielement que l'information peut être fausse.
+-> Le contexte permet de savoir pourquoi une fake news a été posté, et parfois, cela permet de déterminer la factualité du post en question.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
