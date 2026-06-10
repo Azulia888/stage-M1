@@ -6,7 +6,7 @@ from pathlib import Path
 from vision_tool import (
     TranscriptTool, KeyFrameExtractionTool, MetadataTool, OCRTool, DescriptionTool,
     DeepFakeDetectionTool, LipSyncDetectionTool, AiDetectionTool, WeatherDetectionTool,
-    GeolocationTool, FacialRecognitionTool, NERTool,
+    GeolocationTool, FacialRecognitionTool, NERTool, MetadataAnalyzerTool
 )
 from data_manager import DataManager
 
@@ -21,6 +21,7 @@ class VisionModule:
             TranscriptTool(),
             KeyFrameExtractionTool(),
             MetadataTool(),
+            MetadataAnalyzerTool(),
             OCRTool(),
             DescriptionTool(),
             DeepFakeDetectionTool(),
@@ -161,4 +162,6 @@ print(test.data.metadata)
 print(test.data.transcript)
 print(test.data.ocr)
 print(test.data.keyframes)
+print(test.data.toolResult)
+
 

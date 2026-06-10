@@ -8,6 +8,7 @@ class DataManager:
     transcript: str
     isVideo: bool
     toolResult: dict
+    raw_metadata: str 
 
     def __init__(self, originalMedia: str, metadata_path: str, isVideo: bool):
         self.originalMedia = originalMedia
@@ -19,6 +20,7 @@ class DataManager:
         self.ocr = None
         self.transcript = None
         self.toolResult = {}  
+        self.raw_metadata = None
 
     def addToolResult(self, toolJson: dict):
         if "ToolName" in toolJson:
@@ -26,7 +28,9 @@ class DataManager:
 
             if toolJson["ToolName"] == "Description":
                 self.description = toolJson["Output"]
-            if toolJson["ToolName"] == "Metadata":
+            if toolJson["ToolName"] == "Metadata Gatherer":
+                self.raw_metadata = toolJson["Output"]
+            if toolJson["ToolName"] == "Metadata Analyzer":
                 self.metadata = toolJson["Output"]
             if toolJson["ToolName"] == "OCR":
                 self.ocr = toolJson["Output"]
