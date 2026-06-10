@@ -33,7 +33,7 @@ import uuid
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
-
+import threading
 
 
 import cv2
@@ -84,14 +84,34 @@ def _ollama_post(host: str, payload: dict, timeout: int = 120, think: bool = Fal
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        body = e.read().decode(errors="replace")
-        raise RuntimeError(f"Ollama HTTP {e.code}: {body}") from e
-    except urllib.error.URLError as e:
-        raise RuntimeError(f"Ollama connection error: {e.reason}") from e
+
+    result_container = [None]
+    error_container = [None]
+
+    def do_request():
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                result_container[0] = json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode(errors="replace")
+            error_container[0] = RuntimeError(f"Ollama HTTP {e.code}: {body}")
+        except urllib.error.URLError as e:
+            error_container[0] = RuntimeError(f"Ollama connection error: {e.reason}")
+        except Exception as e:
+            error_container[0] = e
+
+    thread = threading.Thread(target=do_request, daemon=True)
+    thread.start()
+    thread.join(timeout=timeout)
+
+    if thread.is_alive():
+        raise RuntimeError(
+            f"Ollama request timed out after {timeout}s "
+            f"(model={payload.get('model')}, prompt length={len(payload.get('prompt',''))})"
+        )
+    if error_container[0] is not None:
+        raise error_container[0]
+    return result_container[0]
 
 
 def _ollama_response(result: dict) -> str:
@@ -917,6 +937,7 @@ class WeatherDetectionTool(VisionTool):
         self.synth_timeout = synth_timeout
  
     def _analyse_frame(self, image_path: str) -> dict:
+        print("WeatherTool : Analyzing frame...")
         with open(image_path, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         result = _ollama_post(self.host, {
@@ -935,6 +956,7 @@ class WeatherDetectionTool(VisionTool):
             return {"raw": raw}
  
     def _synthesise(self, observations: list[dict]) -> dict:
+        print("WeatherTool : Synthesizing...")
         obs_text = "\n".join(
             f"Frame {i + 1}: {json.dumps(o)}" for i, o in enumerate(observations)
         )
@@ -1075,6 +1097,7 @@ class GeolocationTool(VisionTool):
         self.synth_timeout = synth_timeout
  
     def _analyse_frame(self, image_path: str) -> dict:
+        print("GeolocationTool : Analyzing frame...")
         with open(image_path, "rb") as f:
             b64 = base64.b64encode(f.read()).decode()
         result = _ollama_post(self.host, {
@@ -1093,6 +1116,7 @@ class GeolocationTool(VisionTool):
             return {"raw": raw}
  
     def _synthesise(self, observations: list[dict]) -> dict:
+        print("GeolocationTool : Synthesizing...")
         obs_text = "\n".join(
             f"Frame {i + 1}: {json.dumps(o)}" for i, o in enumerate(observations)
         )
