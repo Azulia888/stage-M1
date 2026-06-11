@@ -205,59 +205,97 @@ def _format_srt_ts(seconds: float) -> str:
 # KeyFrameExtractionTool
 # ---------------------------------------------------------------------------
 
+def _duration_to_count(duration_s: float) -> int:
+    """Return the adaptive frame count based on video duration in seconds."""
+    if duration_s < 30:
+        return 5
+    elif duration_s < 90:
+        return 10
+    elif duration_s < 180:
+        return 15
+    elif duration_s < 300:
+        return 20
+    else:
+        return 30
+
+
+
 class KeyFrameExtractionTool(VisionTool):
     TOOL_NAME = "Keyframes"
     INPUTS = ["Video"]
-
+ 
     def __init__(
         self,
         strategy: str = "both",
-        count: int = 10,
+        count: int | None = None,   # None → adaptive based on duration
         threshold: float = 30.0,
         output_dir: str | None = None,
     ):
         self.strategy = strategy
-        self.count = count
+        self.count = count          # explicit override; None = auto
         self.threshold = threshold
-        self.output_dir = output_dir  # None → auto-derive from media path
-
+        self.output_dir = output_dir
+ 
     def run(self, data: DataManager) -> dict | None:
         if not data.isVideo:
             return None
-
+ 
         out_dir = self.output_dir or str(
             Path(data.originalMedia).parent / (Path(data.originalMedia).stem + "_keyframes")
         )
         os.makedirs(out_dir, exist_ok=True)
-
+ 
         try:
             cap = cv2.VideoCapture(data.originalMedia)
             if not cap.isOpened():
                 raise RuntimeError(f"Cannot open video: {data.originalMedia}")
-
+ 
+            # Resolve adaptive count from duration when no explicit count given
+            fps = cap.get(cv2.CAP_PROP_FPS) or 25.0
+            total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+            duration_s = total_frames / fps if fps > 0 else 0.0
+            count = self.count if self.count is not None else _duration_to_count(duration_s)
+ 
             if self.strategy == "uniform":
-                saved = _kf_uniform(cap, self.count, out_dir)
+                saved = _kf_uniform(cap, count, out_dir, fps)
             elif self.strategy == "scene":
-                saved = _kf_scene(cap, self.threshold, out_dir)
+                saved = _kf_scene(cap, self.threshold, out_dir, fps)
             else:  # "both"
-                saved = _kf_both(cap, self.count, self.threshold, out_dir)
-
+                saved = _kf_both(cap, count, self.threshold, out_dir, fps)
+ 
             cap.release()
-            print(f"KeyFrameExtractionTool: saved {len(saved)} frames to {out_dir}", file=sys.stderr)
+            print(
+                f"KeyFrameExtractionTool: saved {len(saved)} frames to {out_dir} "
+                f"(duration={duration_s:.1f}s, count={count})",
+                file=sys.stderr,
+            )
             return _make_tool_json(self.TOOL_NAME, self.INPUTS, saved)
-
+ 
         except Exception as e:
             print(f"KeyFrameExtractionTool error: {e}", file=sys.stderr)
             return _make_tool_json(self.TOOL_NAME, self.INPUTS, None, explanation=str(e), has_run=0)
-
-
-def _save_frame(frame: np.ndarray, output_dir: str, index: int) -> str:
-    path = os.path.join(output_dir, f"frame_{index:05d}.jpg")
+ 
+ 
+def _save_frame(frame: np.ndarray, output_dir: str, index: int, timestamp_ms: int) -> str:
+    """Save a frame; filename encodes both index and wall-clock timestamp."""
+    ts_str = _ms_to_filename_ts(timestamp_ms)
+    path = os.path.join(output_dir, f"frame_{index:05d}_{ts_str}.jpg")
     cv2.imwrite(path, frame, [cv2.IMWRITE_JPEG_QUALITY, 95])
     return path
-
-
-def _kf_uniform(cap: cv2.VideoCapture, num_frames: int, output_dir: str) -> list[str]:
+ 
+ 
+def _ms_to_filename_ts(ms: int) -> str:
+    """Convert milliseconds to a filename-safe timestamp string, e.g. 00h01m23s456ms."""
+    h   = ms // 3_600_000
+    ms -= h * 3_600_000
+    m   = ms // 60_000
+    ms -= m * 60_000
+    s   = ms // 1_000
+    ms -= s * 1_000
+    return f"{h:02d}h{m:02d}m{s:02d}s{ms:03d}ms"
+ 
+ 
+def _kf_uniform(cap: cv2.VideoCapture, num_frames: int, output_dir: str, fps: float) -> list[str]:
     total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     if total <= 0:
         raise RuntimeError("Could not determine frame count.")
@@ -267,12 +305,13 @@ def _kf_uniform(cap: cv2.VideoCapture, num_frames: int, output_dir: str) -> list
         cap.set(cv2.CAP_PROP_POS_FRAMES, int(idx))
         ret, frame = cap.read()
         if ret:
-            saved.append(_save_frame(frame, output_dir, i))
+            ts_ms = int(idx / fps * 1000) if fps > 0 else 0
+            saved.append(_save_frame(frame, output_dir, i, ts_ms))
     return saved
-
-
-def _kf_scene(cap: cv2.VideoCapture, threshold: float, output_dir: str) -> list[str]:
-    saved, prev_gray, save_idx = [], None, 0
+ 
+ 
+def _kf_scene(cap: cv2.VideoCapture, threshold: float, output_dir: str, fps: float) -> list[str]:
+    saved, prev_gray, save_idx, frame_idx = [], None, 0, 0
     while True:
         ret, frame = cap.read()
         if not ret:
@@ -281,18 +320,20 @@ def _kf_scene(cap: cv2.VideoCapture, threshold: float, output_dir: str) -> list[
         if prev_gray is not None:
             diff = np.mean(np.abs(gray.astype(float) - prev_gray.astype(float)))
             if diff >= threshold:
-                saved.append(_save_frame(frame, output_dir, save_idx))
+                ts_ms = int(frame_idx / fps * 1000) if fps > 0 else 0
+                saved.append(_save_frame(frame, output_dir, save_idx, ts_ms))
                 save_idx += 1
         prev_gray = gray
+        frame_idx += 1
     if not saved:
         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         ret, frame = cap.read()
         if ret:
-            saved.insert(0, _save_frame(frame, output_dir, 0))
+            saved.insert(0, _save_frame(frame, output_dir, 0, 0))
     return saved
-
-
-def _kf_both(cap: cv2.VideoCapture, num_frames: int, threshold: float, output_dir: str) -> list[str]:
+ 
+ 
+def _kf_both(cap: cv2.VideoCapture, num_frames: int, threshold: float, output_dir: str, fps: float) -> list[str]:
     scene_frames, prev_gray = [0], None
     cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
     idx = 0
@@ -317,9 +358,9 @@ def _kf_both(cap: cv2.VideoCapture, num_frames: int, threshold: float, output_di
         cap.set(cv2.CAP_PROP_POS_FRAMES, frame_pos)
         ret, frame = cap.read()
         if ret:
-            saved.append(_save_frame(frame, output_dir, save_idx))
+            ts_ms = int(frame_pos / fps * 1000) if fps > 0 else 0
+            saved.append(_save_frame(frame, output_dir, save_idx, ts_ms))
     return saved
-
 
 # ---------------------------------------------------------------------------
 # MetadataTool
