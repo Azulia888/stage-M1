@@ -19,7 +19,7 @@ from data_manager import DataManager
 # ---------------------------------------------------------------------------
 
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-OLLAMA_VISION_MODEL = os.environ.get("OLLAMA_VISION_MODEL", "qwen3.5:4b")
+OLLAMA_VISION_MODEL = os.environ.get("OLLAMA_VISION_MODEL", "qwen3.5:2b")
 OLLAMA_SYNTH_MODEL = os.environ.get("OLLAMA_SYNTH_MODEL", OLLAMA_VISION_MODEL)
 WHISPER_MODEL = os.environ.get("WHISPER_MODEL", "base")
 

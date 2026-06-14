@@ -129,7 +129,7 @@ class KeyFrameExtractionTool(VisionTool):
 
     def __init__(
         self,
-        strategy: str = "both",
+        strategy: str = "uniform",
         count: int | None = None,
         threshold: float = 30.0,
         output_dir: str | None = None,

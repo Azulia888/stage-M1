@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="co_media" attr.type="string" />
+  <key id="d11" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d10" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d9" for="node" attr.name="wikidata_url" attr.type="string" />
+  <key id="d8" for="node" attr.name="wikidata_description" attr.type="string" />
+  <key id="d7" for="node" attr.name="wikidata_label" attr.type="string" />
+  <key id="d6" for="node" attr.name="qid" attr.type="string" />
+  <key id="d5" for="node" attr.name="aliases" attr.type="string" />
+  <key id="d4" for="node" attr.name="mention_count" attr.type="long" />
+  <key id="d3" for="node" attr.name="seen_in" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="normalized_label" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="entities:PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">person</data>
+      <data key="d2">entities</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["PERSON"]</data>
+      <data key="d6">Q5</data>
+      <data key="d7">human</data>
+      <data key="d8">any single member of Homo sapiens, unique extant species of the genus Homo</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q5</data>
+    </node>
+    <node id="entities:ORGANIZATION">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">organization</data>
+      <data key="d2">entities</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["ORGANIZATION"]</data>
+      <data key="d6">Q43229</data>
+      <data key="d7">organization</data>
+      <data key="d8">social entity established to meet needs or pursue goals</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q43229</data>
+    </node>
+    <node id="entities:LOCATION">
+      <data key="d0">LOCATION</data>
+      <data key="d1">location</data>
+      <data key="d2">entities</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["LOCATION"]</data>
+      <data key="d6">Q2221906</data>
+      <data key="d7">geographic location</data>
+      <data key="d8">point, line or area on or near Earth</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q2221906</data>
+    </node>
+    <node id="entities:DATE">
+      <data key="d0">DATE</data>
+      <data key="d1">date</data>
+      <data key="d2">entities</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["DATE"]</data>
+      <data key="d6">Q47150325</data>
+      <data key="d7">calendar day of a given year</data>
+      <data key="d8">specific date (day) of a given year in Gregorian or Julian calendars. See property "point in time" (P585).</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q47150325</data>
+    </node>
+    <node id="entities:EVENT">
+      <data key="d0">EVENT</data>
+      <data key="d1">event</data>
+      <data key="d2">entities</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["EVENT"]</data>
+      <data key="d6">Q1190554</data>
+      <data key="d7">occurrence</data>
+      <data key="d8">occurrence of a fact or object in space-time; instantiation of a property in an object</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q1190554</data>
+    </node>
+    <node id="nltk_intermediate:ORGANIZATION">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">organization</data>
+      <data key="d2">nltk_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["ORGANIZATION"]</data>
+      <data key="d6">Q43229</data>
+      <data key="d7">organization</data>
+      <data key="d8">social entity established to meet needs or pursue goals</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q43229</data>
+    </node>
+    <node id="nltk_intermediate:PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">person</data>
+      <data key="d2">nltk_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["PERSON"]</data>
+      <data key="d6">Q5</data>
+      <data key="d7">human</data>
+      <data key="d8">any single member of Homo sapiens, unique extant species of the genus Homo</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q5</data>
+    </node>
+    <node id="nltk_intermediate:LOCATION">
+      <data key="d0">LOCATION</data>
+      <data key="d1">location</data>
+      <data key="d2">nltk_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["LOCATION"]</data>
+      <data key="d6">Q2221906</data>
+      <data key="d7">geographic location</data>
+      <data key="d8">point, line or area on or near Earth</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q2221906</data>
+    </node>
+    <node id="spacy_intermediate:PERSON">
+      <data key="d0">PERSON</data>
+      <data key="d1">person</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["PERSON"]</data>
+      <data key="d6">Q5</data>
+      <data key="d7">human</data>
+      <data key="d8">any single member of Homo sapiens, unique extant species of the genus Homo</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q5</data>
+    </node>
+    <node id="spacy_intermediate:DATE">
+      <data key="d0">DATE</data>
+      <data key="d1">date</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["DATE"]</data>
+      <data key="d6">Q47150325</data>
+      <data key="d7">calendar day of a given year</data>
+      <data key="d8">specific date (day) of a given year in Gregorian or Julian calendars. See property "point in time" (P585).</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q47150325</data>
+    </node>
+    <node id="spacy_intermediate:PRODUCT">
+      <data key="d0">PRODUCT</data>
+      <data key="d1">product</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["PRODUCT"]</data>
+      <data key="d6">Q542929</data>
+      <data key="d7">product</data>
+      <data key="d8">substance (species) formed from a chemical reaction</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q542929</data>
+    </node>
+    <node id="spacy_intermediate:NATIONALITY">
+      <data key="d0">NATIONALITY</data>
+      <data key="d1">nationality</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["NATIONALITY"]</data>
+      <data key="d6">Q42138</data>
+      <data key="d7">citizenship</data>
+      <data key="d8">enjoyment by a citizen of civil and political rights of a polity, as well as incurring of duties</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q42138</data>
+    </node>
+    <node id="spacy_intermediate:LOCATION">
+      <data key="d0">LOCATION</data>
+      <data key="d1">location</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["LOCATION"]</data>
+      <data key="d6">Q2221906</data>
+      <data key="d7">geographic location</data>
+      <data key="d8">point, line or area on or near Earth</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q2221906</data>
+    </node>
+    <node id="spacy_intermediate:ORGANIZATION">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">organization</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["ORGANIZATION"]</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9" />
+    </node>
+    <node id="spacy_intermediate:WORK_OF_ART">
+      <data key="d0">WORK_OF_ART</data>
+      <data key="d1">work_of_art</data>
+      <data key="d2">spacy_intermediate</data>
+      <data key="d3">["uqO5Qgi4AcQ"]</data>
+      <data key="d4">1</data>
+      <data key="d5">["WORK_OF_ART"]</data>
+      <data key="d6">Q838948</data>
+      <data key="d7">work of art</data>
+      <data key="d8">aesthetic item or artistic creation</data>
+      <data key="d9">https://www.wikidata.org/wiki/Q838948</data>
+    </node>
+    <edge source="entities:PERSON" target="entities:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="entities:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="entities:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="entities:EVENT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="nltk_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:PERSON" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="entities:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="entities:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="entities:EVENT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="nltk_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:ORGANIZATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="entities:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="entities:EVENT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="nltk_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:LOCATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="entities:EVENT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="nltk_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:DATE" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="nltk_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="entities:EVENT" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="nltk_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:ORGANIZATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="nltk_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:PERSON" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:PERSON">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="nltk_intermediate:LOCATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:DATE">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PERSON" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:DATE" target="spacy_intermediate:PRODUCT">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:DATE" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:DATE" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:DATE" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:DATE" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PRODUCT" target="spacy_intermediate:NATIONALITY">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PRODUCT" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PRODUCT" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:PRODUCT" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:NATIONALITY" target="spacy_intermediate:LOCATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:NATIONALITY" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:NATIONALITY" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:LOCATION" target="spacy_intermediate:ORGANIZATION">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:LOCATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+    <edge source="spacy_intermediate:ORGANIZATION" target="spacy_intermediate:WORK_OF_ART">
+      <data key="d10">1</data>
+      <data key="d11">CO_OCCURS_IN</data>
+      <data key="d12">["uqO5Qgi4AcQ"]</data>
+    </edge>
+  </graph>
+</graphml>

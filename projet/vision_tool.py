@@ -20,4 +20,6 @@ from vision_tools import (  # noqa: F401
     AiDetectionTool,
     DeepFakeDetectionTool,
     FacialRecognitionTool,
+    ReverseImageSearchTool,
+    KnowledgeGraphTool,
 )

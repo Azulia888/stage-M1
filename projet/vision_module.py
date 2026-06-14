@@ -6,7 +6,7 @@ from pathlib import Path
 from vision_tool import (
     TranscriptTool, KeyFrameExtractionTool, MetadataTool, OCRTool, DescriptionTool,
     DeepFakeDetectionTool, LipSyncDetectionTool, AiDetectionTool, WeatherDetectionTool,
-    GeolocationTool, FacialRecognitionTool, NERTool, MetadataAnalyzerTool
+    GeolocationTool, FacialRecognitionTool, NERTool, MetadataAnalyzerTool, ReverseImageSearchTool, KnowledgeGraphTool
 )
 from data_manager import DataManager
 
@@ -30,7 +30,9 @@ class VisionModule:
             WeatherDetectionTool(),
             GeolocationTool(),
             FacialRecognitionTool(),
-            NERTool(),
+            NERTool(backend="ensemble"),
+            ReverseImageSearchTool(),
+            KnowledgeGraphTool(),
         ]
 
     def run(self, media_path: str, metadata_path: str, isVideo: bool):
@@ -156,14 +158,16 @@ def _write_metadata_sidecar(info: dict, metadata_path: str) -> None:
     Path(metadata_path).write_text(json.dumps(subset, indent=2, default=str), encoding="utf-8")
 
 test = VisionModule()
-#test.runURL("https://www.youtube.com/watch?v=uqO5Qgi4AcQ", True)   #286
-test.runURL("https://www.tiktok.com/@divineherbalroots/video/7282796137705213214", True)   #5464
+test.runURL("https://www.youtube.com/watch?v=uqO5Qgi4AcQ", True)   #286
+#test.runURL("https://www.tiktok.com/@divineherbalroots/video/7282796137705213214", True)   #5464
 
-print(test.data.description)
-print(test.data.metadata)
-print(test.data.transcript)
-print(test.data.ocr)
-print(test.data.keyframes)
-print(test.data.toolResult)
+
+for key, value in test.data.isVideotoolResult:
+    print(key)
+    print(value)
+    print()
+    print("="*50)
+    print()
+
 
 

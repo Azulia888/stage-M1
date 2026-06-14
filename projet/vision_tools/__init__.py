@@ -17,6 +17,9 @@ from vision_tools.weather import WeatherDetectionTool
 from vision_tools.geolocation import GeolocationTool
 from vision_tools.lipsync import LipSyncDetectionTool
 from vision_tools.stubs import AiDetectionTool, DeepFakeDetectionTool, FacialRecognitionTool
+from vision_tools.ris import ReverseImageSearchTool
+from vision_tools.knowledge_graph import KnowledgeGraphTool
+
 
 __all__ = [
     "VisionTool",
@@ -33,4 +36,6 @@ __all__ = [
     "AiDetectionTool",
     "DeepFakeDetectionTool",
     "FacialRecognitionTool",
+    "ReverseImageSearchTool",
+    "KnowledgeGraphTool",
 ]
