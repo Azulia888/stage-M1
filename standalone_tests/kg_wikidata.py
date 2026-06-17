@@ -1,21 +1,24 @@
 """
-knowledge_graph.py — KnowledgeGraphTool: builds a persistent co-occurrence graph
-from NER output, with entity normalization, fuzzy deduplication, and optional
-Wikidata QID enrichment.
+Wikidata NER enrichment pipeline.
 
-Dependencies: networkx, rapidfuzz (pip install networkx rapidfuzz)
+Usage:
+    python wikidata_ner_enrichment.py
+
+Provide a list of NER entities in the ENTITIES list below, or adapt
+the script to accept them from your NER system's output.
 """
-
-from __future__ import annotations
 
 import json
 import time
 import requests
 
-from data_manager import DataManager
-from vision_tools.base import VisionTool, _make_tool_json
+# --- Configuration -----------------------------------------------------------
 
-
+ENTITIES = [
+    "Donald Trump",
+    "Emmanuel Macron",
+    "White House",
+]
 
 OUTPUT_FILE = "wikidata_enriched.json"
 
@@ -49,6 +52,7 @@ HEADERS = {
     "Accept": "application/json",
 }
 
+# --- Functions ---------------------------------------------------------------
 
 def search_entity(entity_name: str) -> dict | None:
     """Return the top Wikidata search result for *entity_name*, or None."""
@@ -128,47 +132,16 @@ def enrich_entity(entity_name: str) -> dict:
     return record
 
 
+# --- Main --------------------------------------------------------------------
 
-class KnowledgeGraphTool(VisionTool):
-    TOOL_NAME = "Knowledge Graph"
-    INPUTS = ["NER"]
+def main():
+    results = [enrich_entity(name) for name in ENTITIES]
 
-    def __init__(
-        self,
-        enrich_wikidata: bool = True,
-        wikidata_lang: str = "en",
-    ):
-        self.enrich_wikidata = enrich_wikidata
-        self.wikidata_lang = wikidata_lang
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
 
-    
-
-    def run(self, data: DataManager) -> dict | None:
-        ner_result = data.toolResult.get("NER")
-        if not ner_result or not ner_result.get("Output"):
-            return _make_tool_json(
-                self.TOOL_NAME, self.INPUTS, None,
-                explanation="NER must run before KnowledgeGraphTool.",
-                has_run=0,
-            )
-
-        ner_dict: dict[str, list[str]] = ner_result["Output"]
-        entities = ner_dict["entities"]
-        list_ners = []
-        for key, value in entities.items():
-            list_ners.extend(value)
-        
-        results = [enrich_entity(name) for name in list_ners]
-
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
+    print(f"\nDone. Results written to {OUTPUT_FILE}")
 
 
-        return _make_tool_json(
-            self.TOOL_NAME, self.INPUTS,
-            output=results,
-            explanation=(""
-            ),
-            confidence=-1,
-            corroborating_tools=["NER", "Metadata Gatherer", "Geolocation"],
-        )
+if __name__ == "__main__":
+    main()

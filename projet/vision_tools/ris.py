@@ -23,6 +23,7 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+import requests
 from pathlib import Path
 from typing import Optional
 
@@ -41,6 +42,8 @@ from vision_tools.base import (
 # Config
 # ---------------------------------------------------------------------------
 
+IMGBB_ENDPOINT = "https://api.imgbb.com/1/upload"
+IMGBB_API_KEY  = "e752cda8cbbaf773e0a62d7c6844784a"  
 SERPAPI_KEY: str = "c13af0f324b60d48b08d6293d13dcf71c5a11b312e5dd722a185a46c07f6790e"
 SERPAPI_BASE: str = "https://serpapi.com/search.json"
 _MIN_SCORE_THRESHOLD: int = 6
@@ -50,8 +53,7 @@ _SCORE_PROMPT = """\
 You are assisting a fact-checking newsroom with reverse image search triage.
 Rate this image frame from 0 to 10 for how useful a reverse image search would be.
 
-High scores (7-10): distinctive visual content — recognisable landmarks, faces,
-logos, unique events, specific objects, text overlays, or scenes likely to appear
+High scores (7-10): distinctive visual content — recognisable landmarks, unique events, specific objects, or scenes likely to appear
 in published media.
 
 Low scores (0-5): generic content — plain backgrounds, blurry frames, very dark
@@ -101,92 +103,25 @@ def _score_frame(image_path: str, model: str, host: str, timeout: int) -> dict:
         return {"score": 0, "reason": f"LLM returned non-JSON: {raw[:120]}"}
 
 
-def _serpapi_reverse_search(image_path: str, api_key: str, timeout: int) -> dict:
-    """
-    Upload the image to SerpApi's Google Reverse Image Search endpoint.
-    SerpApi accepts a local file via base64 in the `image_base64` parameter,
-    or a public URL via `image_url`. We use base64 to avoid needing a
-    publicly reachable host.
-    """
+def _upload_image(image_path: str) -> str:
     with open(image_path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode()
+        encoded = base64.b64encode(f.read()).decode("utf-8")
+    r = requests.post(IMGBB_ENDPOINT, data={"key": IMGBB_API_KEY, "image": encoded})
+    r.raise_for_status()
+    return r.json()["data"]["url"]
+
+def _reverse_image_search(image_path: str, api_key: str) -> dict:
+    image_url = _upload_image(image_path)
+    print(f"[upload] Image hosted at: {image_url}")
 
     params = {
         "engine": "google_reverse_image",
-        "image_base64": b64,
+        "image_url": image_url,
         "api_key": api_key,
-        "hl": "en",
-        "gl": "us",
     }
-    encoded = urllib.parse.urlencode(params)
-    url = f"{SERPAPI_BASE}?{encoded}"
-
-    req = urllib.request.Request(url, method="GET")
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        body = e.read().decode(errors="replace")
-        raise RuntimeError(f"SerpApi HTTP {e.code}: {body[:500]}")
-    except urllib.error.URLError as e:
-        raise RuntimeError(f"SerpApi connection error: {e.reason}")
-
-
-def _extract_ris_summary(serpapi_response: dict) -> dict:
-    """
-    Pull the most useful fields from SerpApi's verbose response dict.
-    Returns a compact summary suitable for downstream LLM consumption.
-    """
-    summary: dict = {}
-
-    # Image results (visually similar images)
-    image_results = serpapi_response.get("image_results", [])
-    if image_results:
-        summary["image_results"] = [
-            {
-                "title": r.get("title", ""),
-                "source": r.get("source", ""),
-                "link": r.get("link", ""),
-                "thumbnail": r.get("thumbnail", ""),
-            }
-            for r in image_results[:10]  # cap at 10
-        ]
-
-    # Knowledge graph (if SerpApi identifies a known entity)
-    kg = serpapi_response.get("knowledge_graph")
-    if kg:
-        summary["knowledge_graph"] = {
-            "title": kg.get("title"),
-            "type": kg.get("type"),
-            "description": kg.get("description"),
-            "source": kg.get("source", {}).get("name"),
-        }
-
-    # Pages that include matching images
-    pages = serpapi_response.get("pages_with_matching_images", [])
-    if pages:
-        summary["pages_with_matching_images"] = [
-            {
-                "title": p.get("page_title", ""),
-                "link": p.get("link", ""),
-                "snippet": p.get("snippet", ""),
-            }
-            for p in pages[:10]
-        ]
-
-    # Inline images (similar)
-    inline = serpapi_response.get("inline_images", [])
-    if inline:
-        summary["inline_images"] = [
-            {"source": i.get("source", ""), "link": i.get("link", "")}
-            for i in inline[:5]
-        ]
-
-    if not summary:
-        summary["raw_keys"] = list(serpapi_response.keys())
-
-    return summary
-
+    r = requests.get(SERPAPI_BASE, params=params, timeout=30)
+    r.raise_for_status()
+    return r.json()
 
 def _write_txt_sidecar(
     path: str,
@@ -345,10 +280,10 @@ class ReverseImageSearchTool(VisionTool):
         )
 
         try:
-            raw_response = _serpapi_reverse_search(
-                chosen_frame, self.api_key, self.ris_timeout
+            raw_response = _reverse_image_search(
+                chosen_frame, self.api_key
             )
-            ris_summary = _extract_ris_summary(raw_response)
+            ris_summary = raw_response
         except Exception as e:
             print(f"ReverseImageSearchTool: SerpApi error: {e}", file=sys.stderr)
             return _make_tool_json(

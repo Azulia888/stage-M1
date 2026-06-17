@@ -30,7 +30,7 @@ class VisionModule:
             WeatherDetectionTool(),
             GeolocationTool(),
             FacialRecognitionTool(),
-            NERTool(backend="ensemble"),
+            NERTool(backend="llm"),
             ReverseImageSearchTool(),
             KnowledgeGraphTool(),
         ]
@@ -162,7 +162,7 @@ test.runURL("https://www.youtube.com/watch?v=uqO5Qgi4AcQ", True)   #286
 #test.runURL("https://www.tiktok.com/@divineherbalroots/video/7282796137705213214", True)   #5464
 
 
-for key, value in test.data.isVideotoolResult:
+for key, value in test.data.toolResult.items():
     print(key)
     print(value)
     print()

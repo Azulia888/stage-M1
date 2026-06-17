@@ -84,6 +84,8 @@ Extract all named entities from the text below and return ONLY a valid JSON obje
 The JSON must have one key per entity type and an array of unique string values.
 Use only these entity types: {types}.
 If no entities of a type are found, omit that key.
+Omit very common entities, such as days of the week or the current time.
+Only report entities that could be interesting to know about in a fact-checking environment.
 Output ONLY the JSON object — no explanation, no markdown fences.
 
 Text:
