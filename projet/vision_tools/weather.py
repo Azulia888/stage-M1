@@ -127,10 +127,14 @@ class WeatherDetectionTool(VisionTool):
 
         output = observations[0] if len(observations) == 1 else self._synthesise(observations)
 
+
         consistency_note = output.get("consistency", "")
-        has_inconsistency = bool(
-            consistency_note and consistency_note.lower() not in ("none", "consistent", "")
-        )
+        try:
+            has_inconsistency = bool(
+                consistency_note and consistency_note.lower() not in ("none", "consistent", "")
+            )
+        except:
+            has_inconsistency = True
         confidence = 55 if has_inconsistency else 70
         confidence_explanation = (
             "Weather and lighting analysis from a vision model is indicative, not authoritative. "

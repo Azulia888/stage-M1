@@ -1,5 +1,6 @@
 """
-ner.py — NERTool: named-entity recognition over aggregated text fields.
+ner.py — NERTool: named-entity recognition over aggregated text fields,
+augmented with a visual NER pass over keyframes.
 
 Backends
 --------
@@ -8,10 +9,21 @@ Backends
 "spacy"    — spaCy (model resolved from SPACY_MODEL env var, default en_core_web_sm)
 "ensemble" — NLTK + spaCy results fed to an LLM together with the source text
              for a final consolidated extraction
+
+Visual pass
+-----------
+Before the text-based backend runs, each keyframe (or the single image) is
+sent to the vision model with a prompt restricted to entities visible in the
+scene itself (people, organisations, locations, events, etc. — not text in
+the image, which OCR already covers). The merged per-frame results are
+injected as an extra section into the text fed to the final backend, so the
+LLM (or NLTK/spaCy, as plain proper nouns) has access to both textual and
+visual evidence.
 """
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import sys
@@ -21,7 +33,7 @@ from typing import Literal
 from data_manager import DataManager
 from vision_tools.base import (
     VisionTool, _make_tool_json, _ollama_post, _ollama_response,
-    OLLAMA_HOST, OLLAMA_SYNTH_MODEL,
+    OLLAMA_HOST, OLLAMA_SYNTH_MODEL, OLLAMA_VISION_MODEL,
 )
 
 
@@ -94,7 +106,7 @@ Text:
 _ENSEMBLE_PROMPT = """\
 You are a named-entity recognition (NER) system for a fact-checking newsroom.
 You are given:
-1. Source text (transcript, description, OCR, metadata).
+1. Source text (transcript, description, OCR, metadata, visual entities).
 2. NER results from NLTK.
 3. NER results from spaCy.
 
@@ -115,6 +127,19 @@ NLTK RESULTS:
 SPACY RESULTS:
 {spacy_result}"""
 
+_VISUAL_NER_PROMPT = """\
+You are a named-entity recognition (NER) system for a fact-checking newsroom.
+Examine this image frame and identify named entities visible in the scene itself \
+— recognisable people, organisations (logos, uniforms, liveries), locations or \
+landmarks, named events, products, and flags or symbols indicating nationality.
+Do not report text written in the image (signs, captions, subtitles); that is \
+handled separately by OCR.
+Return ONLY a valid JSON object with one key per entity type and an array of \
+unique string values. Use only these entity types: {types}.
+If no entities of a type are found, omit that key.
+Do not guess beyond what the visual evidence supports.
+Output ONLY the JSON object — no explanation, no markdown fences."""
+
 
 # ---------------------------------------------------------------------------
 # Backend helpers
@@ -122,6 +147,37 @@ SPACY RESULTS:
 
 def _dedupe(entities: dict[str, list[str]]) -> dict[str, list[str]]:
     return {k: sorted(set(v)) for k, v in entities.items() if v}
+
+
+def _run_visual_frame(
+    image_path: str, host: str, model: str, timeout: int = 120
+) -> dict[str, list[str]]:
+    """Run visual-only NER on a single image/keyframe via the vision model."""
+    with open(image_path, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+    prompt = _VISUAL_NER_PROMPT.format(types=", ".join(_NER_ENTITY_TYPES))
+    result = _ollama_post(host, {
+        "model": model,
+        "prompt": prompt,
+        "images": [b64],
+        "stream": False,
+    }, timeout=timeout)
+    raw = _ollama_response(result).strip()
+    if raw.startswith("```"):
+        lines = raw.split("\n")
+        raw = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:]).strip()
+    try:
+        entities: dict = json.loads(raw)
+    except json.JSONDecodeError:
+        return {}
+    cleaned: dict[str, list[str]] = {}
+    for k, v in entities.items():
+        if not isinstance(v, list):
+            v = [str(v)]
+        vals = [str(x).strip() for x in v if str(x).strip()]
+        if vals:
+            cleaned[k] = vals
+    return _dedupe(cleaned)
 
 
 def _run_nltk(text: str) -> dict[str, list[str]]:
@@ -268,14 +324,47 @@ class NERTool(VisionTool):
     def __init__(
         self,
         model: str = OLLAMA_SYNTH_MODEL,
+        vision_model: str = OLLAMA_VISION_MODEL,
         host: str = OLLAMA_HOST,
         backend: Backend = "llm",
+        include_visual_entities: bool = True,
+        visual_frame_timeout: int = 120,
     ):
         self.model = model
+        self.vision_model = vision_model
         self.host = host
         self.backend: Backend = backend
+        self.include_visual_entities = include_visual_entities
+        self.visual_frame_timeout = visual_frame_timeout
 
-    def _collect_text(self, data: DataManager) -> str:
+    def _collect_visual_entities(self, data: DataManager) -> dict[str, list[str]]:
+        """Run visual-only NER on each keyframe (or the single image) and merge results."""
+        sources: list[str] = data.keyframes if data.isVideo else [data.originalMedia]
+        if not sources:
+            return {}
+
+        merged: dict[str, list[str]] = {}
+        for i, img_path in enumerate(sources, 1):
+            print(
+                f"NERTool: visual NER on frame {i}/{len(sources)} "
+                f"({Path(img_path).name}) ...",
+                file=sys.stderr,
+            )
+            try:
+                frame_entities = _run_visual_frame(
+                    img_path, self.host, self.vision_model, self.visual_frame_timeout
+                )
+            except Exception as e:
+                print(f"NERTool: visual NER error on {img_path}: {e}", file=sys.stderr)
+                continue
+            for k, v in frame_entities.items():
+                merged.setdefault(k, []).extend(v)
+
+        return _dedupe(merged)
+
+    def _collect_text(
+        self, data: DataManager, visual_entities: dict[str, list[str]] | None = None
+    ) -> str:
         parts: list[str] = []
         if data.transcript:
             parts.append(f"[Transcript]\n{data.transcript}")
@@ -297,10 +386,19 @@ class NERTool(VisionTool):
                         parts.append(f"[Sidecar:{key}]\n{val}")
             except Exception:
                 pass
+        if visual_entities:
+            parts.append(
+                "[Visual entities detected in keyframes]\n"
+                + json.dumps(visual_entities, ensure_ascii=False)
+            )
         return "\n\n".join(parts)
 
     def run(self, data: DataManager) -> dict | None:
-        text = self._collect_text(data)
+        visual_entities: dict[str, list[str]] = {}
+        if self.include_visual_entities:
+            visual_entities = self._collect_visual_entities(data)
+
+        text = self._collect_text(data, visual_entities)
         if not text.strip():
             return _make_tool_json(
                 self.TOOL_NAME, self.INPUTS, None,
@@ -314,6 +412,8 @@ class NERTool(VisionTool):
 
         try:
             extra_output: dict = {}
+            if visual_entities:
+                extra_output["visual_intermediate"] = visual_entities
 
             if self.backend == "llm":
                 entities = _run_llm(text, self.host, self.model)
@@ -326,10 +426,8 @@ class NERTool(VisionTool):
 
             elif self.backend == "ensemble":
                 nltk_result, spacy_result, entities = _run_ensemble(text, self.host, self.model)
-                extra_output = {
-                    "nltk_intermediate":  nltk_result,
-                    "spacy_intermediate": spacy_result,
-                }
+                extra_output["nltk_intermediate"] = nltk_result
+                extra_output["spacy_intermediate"] = spacy_result
             else:
                 raise ValueError(f"Unknown NER backend: {self.backend!r}")
 
@@ -337,6 +435,10 @@ class NERTool(VisionTool):
             explanation = (
                 f"Extracted {total} named entities across {len(entities)} type(s) "
                 f"from aggregated text fields using backend '{self.backend}'."
+                + (
+                    " Visual NER was run on keyframes and merged into the input text."
+                    if visual_entities else ""
+                )
             )
 
             output = {"entities": entities, **extra_output}

@@ -157,17 +157,15 @@ def _write_metadata_sidecar(info: dict, metadata_path: str) -> None:
     subset = {k: info[k] for k in keys if k in info and info[k] is not None}
     Path(metadata_path).write_text(json.dumps(subset, indent=2, default=str), encoding="utf-8")
 
-test = VisionModule()
-test.runURL("https://www.youtube.com/watch?v=uqO5Qgi4AcQ", True)   #286
-#test.runURL("https://www.tiktok.com/@divineherbalroots/video/7282796137705213214", True)   #5464
 
+if __name__ == "__main__":
+    test = VisionModule()
+    test.runURL("https://www.youtube.com/watch?v=uqO5Qgi4AcQ", True)   #286
+    #test.runURL("https://www.tiktok.com/@divineherbalroots/video/7282796137705213214", True)   #5464
 
-for key, value in test.data.toolResult.items():
-    print(key)
-    print(value)
-    print()
-    print("="*50)
-    print()
-
-
-
+    for key, value in test.data.toolResult.items():
+        print(key)
+        print(value)
+        print()
+        print("="*50)
+        print()

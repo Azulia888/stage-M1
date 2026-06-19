@@ -158,9 +158,12 @@ class GeolocationTool(VisionTool):
             confidence = 20
 
         consistency_note = output.get("consistency", "")
-        has_inconsistency = bool(
-            consistency_note and consistency_note.lower() not in ("none", "consistent", "")
-        )
+        try:
+            has_inconsistency = bool(
+                consistency_note and consistency_note.lower() not in ("none", "consistent", "")
+            )
+        except:
+            has_inconsistency = True
         if has_inconsistency:
             confidence = max(confidence - 15, 10)
 
