@@ -15,7 +15,7 @@ from PySide6.QtGui import QBrush, QPen, QColor, QPixmap, QPolygonF, QPainter
 from PySide6.QtWidgets import (
     QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem,
     QGraphicsTextItem, QGraphicsPixmapItem, QGraphicsLineItem,
-    QGraphicsPolygonItem, QGraphicsItem,
+    QGraphicsPolygonItem, QGraphicsItem, QFileDialog
 )
 
 from graph_model import build_graph, node_color, GraphNode
@@ -139,6 +139,14 @@ class GraphWindow(QMainWindow):
         self.statusBar().showMessage(
             "Scroll to zoom, drag to pan. Click a node for details."
         )
+
+        export_action = self.menuBar().addAction("Export analysis...")
+        export_action.triggered.connect(self._export)
+
+    def _export(self) -> None:
+        path, _ = QFileDialog.getSaveFileName(self, "Export analysis", filter="Pickle (*.pkl)")
+        if path:
+            self.data.save(path)
 
     def _build_scene(self) -> None:
         nodes, edges = build_graph(self.data)

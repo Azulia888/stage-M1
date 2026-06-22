@@ -1,0 +1,10 @@
+PySide6
+opencv-python
+numpy
+requests
+yt-dlp
+openai-whisper
+torch
+nltk
+spacy
+pickle-mixin

@@ -13,6 +13,8 @@ from PySide6.QtWidgets import (
 )
 
 from run_window import RunWindow
+from data_manager import DataManager
+from graph_window import GraphWindow
 
 _IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"}
 
@@ -40,6 +42,13 @@ class LaunchWindow(QWidget):
         self.image_radio = QRadioButton("Image")
         self.video_radio.setChecked(True)
 
+        self.import_radio = QRadioButton("Import previous analysis (.pkl)")
+
+        self.import_edit = QLineEdit()
+        self.import_edit.setPlaceholderText("/path/to/analysis.pkl")
+        import_browse_btn = QPushButton("Browse...")
+        import_browse_btn.clicked.connect(self._browse_import)
+
         run_btn = QPushButton("Run analysis")
         run_btn.clicked.connect(self._run)
 
@@ -53,6 +62,12 @@ class LaunchWindow(QWidget):
         path_row.addWidget(browse_btn)
         layout.addLayout(path_row)
 
+        layout.addWidget(self.import_radio)
+        import_row = QHBoxLayout()
+        import_row.addWidget(self.import_edit)
+        import_row.addWidget(import_browse_btn)
+        layout.addLayout(import_row)
+
         type_row = QHBoxLayout()
         type_row.addWidget(QLabel("Media type:"))
         type_row.addWidget(self.video_radio)
@@ -63,12 +78,22 @@ class LaunchWindow(QWidget):
         layout.addWidget(run_btn)
 
         self.url_radio.toggled.connect(self._sync_enabled)
+        self.import_radio.toggled.connect(self._sync_enabled)
         self._sync_enabled()
 
     def _sync_enabled(self) -> None:
         is_url = self.url_radio.isChecked()
+        is_import = self.import_radio.isChecked()
         self.url_edit.setEnabled(is_url)
-        self.path_edit.setEnabled(not is_url)
+        self.path_edit.setEnabled(not is_url and not is_import)
+        self.import_edit.setEnabled(is_import)
+
+    def _browse_import(self) -> None:
+        path, _ = QFileDialog.getOpenFileName(self, "Select analysis file")
+        if not path:
+            return
+        self.import_edit.setText(path)
+        self.import_radio.setChecked(True)
 
     def _browse(self) -> None:
         path, _ = QFileDialog.getOpenFileName(self, "Select media file")
@@ -82,6 +107,21 @@ class LaunchWindow(QWidget):
             self.video_radio.setChecked(True)
 
     def _run(self) -> None:
+        if self.import_radio.isChecked():
+            value = self.import_edit.text().strip()
+            if not value or not Path(value).exists():
+                QMessageBox.warning(self, "Invalid path", "Please select a valid .pkl file.")
+                return
+            try:
+                data = DataManager.load(value)
+            except Exception as e:
+                QMessageBox.critical(self, "Import failed", str(e))
+                return
+            self._run_window = GraphWindow(data)
+            self._run_window.show()
+            self.close()
+            return
+
         is_video = self.video_radio.isChecked()
 
         if self.url_radio.isChecked():

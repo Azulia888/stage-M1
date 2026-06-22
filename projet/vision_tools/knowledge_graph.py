@@ -158,9 +158,13 @@ class KnowledgeGraphTool(VisionTool):
         for key, value in entities.items():
             list_ners.extend(value)
         
-        results = [enrich_entity(name) for name in list_ners]
+        results = []
+        for name in list_ners:
+            results.append(enrich_entity(name))
+            time.sleep(5) #waiting for 5 seconds to try to prevent sending too many requests to wikidata and getting blocked
 
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        path = Path(data.originalMedia) / OUTPUT_FILE
+        with open(path, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
 

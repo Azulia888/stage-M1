@@ -5,7 +5,7 @@ pipeline runs in the background, then hands off to the graph window.
 
 from __future__ import annotations
 
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPlainTextEdit, QProgressBar, QMessageBox
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPlainTextEdit, QProgressBar, QMessageBox, QFileDialog
 from PySide6.QtGui import QTextCursor
 
 from pipeline_worker import PipelineWorker
@@ -51,9 +51,17 @@ class RunWindow(QWidget):
         self.status_label.setText("Analysis complete.")
         self.progress.setRange(0, 1)
         self.progress.setValue(1)
+        self._offer_export(data)
         self._graph_window = GraphWindow(data)
         self._graph_window.show()
         self.close()
+
+    def _offer_export(self, data) -> None:
+        path, _ = QFileDialog.getSaveFileName(
+            self, "Save analysis (optional)", filter="Pickle (*.pkl)"
+        )
+        if path:
+            data.save(path)
 
     def _on_error(self, message: str) -> None:
         self.progress.setRange(0, 1)

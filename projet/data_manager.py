@@ -1,3 +1,5 @@
+import pickle
+
 class DataManager:
     originalMedia: str
     keyframes: list[str]
@@ -38,3 +40,12 @@ class DataManager:
                 self.keyframes = toolJson["Output"]
             if toolJson["ToolName"] == "Transcript":
                 self.transcript = toolJson["Output"]
+
+    def save(self, path: str) -> None:
+        with open(path, "wb") as f:
+            pickle.dump(self, f)
+
+    @staticmethod
+    def load(path: str) -> "DataManager":
+        with open(path, "rb") as f:
+            return pickle.load(f)
