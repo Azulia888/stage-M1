@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import time
 import requests
+from pathlib import Path
 
 from data_manager import DataManager
 from vision_tools.base import VisionTool, _make_tool_json
@@ -163,7 +164,7 @@ class KnowledgeGraphTool(VisionTool):
             results.append(enrich_entity(name))
             time.sleep(5) #waiting for 5 seconds to try to prevent sending too many requests to wikidata and getting blocked
 
-        path = Path(data.originalMedia) / OUTPUT_FILE
+        path = Path(data.originalMedia).parent / OUTPUT_FILE
         with open(path, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
