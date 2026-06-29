@@ -8,10 +8,12 @@ import json
 import os
 import sys
 import threading
+import time
 import urllib.error
 import urllib.request
 
 from data_manager import DataManager
+from pipeline_timer import format_duration
 
 
 # ---------------------------------------------------------------------------
@@ -118,7 +120,10 @@ class VisionTool:
         return None
 
     def addData(self, data: DataManager) -> None:
+        start = time.perf_counter()
         result = self.run(data)
+        duration = time.perf_counter() - start
+        print(f"[{self.TOOL_NAME}] module finished in {format_duration(duration)}")
         if result is not None:
             data.addToolResult(result)
 

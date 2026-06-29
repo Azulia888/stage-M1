@@ -1,0 +1,492 @@
+[
+  {
+    "entity": "Benjamin Netanyahu",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Iddo Netanyahu",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "MEHMET VEFA DAG",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "AFRICANDEMOC",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Cape Town Mayor Candidate",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Al-Qarar",
+    "wikidata_id": "Q1814845",
+    "search_result": {
+      "id": "Q1814845",
+      "label": "Al-Qarara",
+      "description": "town in Gaza strip",
+      "url": "//www.wikidata.org/wiki/Q1814845"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1814845",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Father%20from%20Gaza%20and%20his%20children%20with%20some%20belongings%20for%20displacement.jpg",
+        "itemLabel": "Al-Qarara",
+        "itemDescription": "town in Gaza strip",
+        "instanceOfLabel": "village",
+        "countryLabel": "Palestine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1814845",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Father%20from%20Gaza%20and%20his%20children%20with%20some%20belongings%20for%20displacement.jpg",
+        "itemLabel": "Al-Qarara",
+        "itemDescription": "town in Gaza strip",
+        "instanceOfLabel": "town",
+        "countryLabel": "Palestine"
+      }
+    ]
+  },
+  {
+    "entity": "Cape Town",
+    "wikidata_id": "Q5465",
+    "search_result": {
+      "id": "Q5465",
+      "label": "Cape Town",
+      "description": "city in the Western Cape, South Africa",
+      "url": "//www.wikidata.org/wiki/Q5465"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "administrative territorial entity",
+        "countryLabel": "South Africa"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "big city",
+        "countryLabel": "South Africa"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "port city",
+        "countryLabel": "South Africa"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "statistical territorial entity",
+        "countryLabel": "South Africa"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "legislative capital",
+        "countryLabel": "South Africa"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q5465",
+        "officialWebsite": "http://www.capetown.gov.za",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20del%20Cabo%20desde%20Cabeza%20de%20Le%C3%B3n%2C%20Sud%C3%A1frica%2C%202018-07-22%2C%20DD%2034.jpg",
+        "itemLabel": "Cape Town",
+        "itemDescription": "city in the Western Cape, South Africa",
+        "instanceOfLabel": "national capital",
+        "countryLabel": "South Africa"
+      }
+    ]
+  },
+  {
+    "entity": "Dyiran",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Dyiran Ouled Ali",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2026-03-09",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Attack",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Fire",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Arabic",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "arabic",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "اردو",
+    "wikidata_id": "Q1617",
+    "search_result": {
+      "id": "Q1617",
+      "label": "Urdu",
+      "description": "Indo-Aryan language spoken in South Asia",
+      "url": "//www.wikidata.org/wiki/Q1617"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "register",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Norway"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "register",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Norway"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Norway"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "Norway"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1617",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdu%20example.svg",
+        "itemLabel": "Urdu",
+        "itemDescription": "Indo-Aryan language spoken in South Asia",
+        "instanceOfLabel": "register",
+        "subclassOfLabel": "Khariboli",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "العربية",
+    "wikidata_id": "Q13955",
+    "search_result": {
+      "id": "Q13955",
+      "label": "Arabic",
+      "description": "Semitic language and lingua franca of the Arab world",
+      "url": "//www.wikidata.org/wiki/Q13955"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Djibouti"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Djibouti"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Djibouti"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q13955",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Learning%20Arabic%20calligraphy.jpg",
+        "itemLabel": "Arabic",
+        "itemDescription": "Semitic language and lingua franca of the Arab world",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Semitic",
+        "countryLabel": "Eritrea"
+      }
+    ]
+  },
+  {
+    "entity": "Iranian",
+    "wikidata_id": "Q9168",
+    "search_result": {
+      "id": "Q9168",
+      "label": "Persian",
+      "description": "Western Iranian language",
+      "url": "//www.wikidata.org/wiki/Q9168"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language family",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "dialect continuum",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "field of study",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "dialect group",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "field of study",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language family",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "entity": "Israeli",
+    "wikidata_id": "Q37571859",
+    "search_result": {
+      "id": "Q37571859",
+      "label": "Israeli",
+      "description": "family name",
+      "url": "//www.wikidata.org/wiki/Q37571859"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q37571859",
+        "itemLabel": "Israeli",
+        "itemDescription": "family name",
+        "instanceOfLabel": "family name"
+      }
+    ]
+  }
+]

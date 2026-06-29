@@ -1,0 +1,250 @@
+[
+  {
+    "entity": "男性人物 1",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "男性人物 2",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Al Barsha District",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Al Khairat",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Burj Khalifa",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Dubai",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Emirates Tower",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Mouqaddam",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Qatar",
+    "wikidata_id": "Q846",
+    "search_result": {
+      "id": "Q846",
+      "label": "Qatar",
+      "description": "country in West Asia",
+      "url": "//www.wikidata.org/wiki/Q846"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q846",
+        "officialWebsite": "https://www.diwan.gov.qa/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Doha%20West%20Bay.jpg",
+        "itemLabel": "Qatar",
+        "itemDescription": "country in West Asia",
+        "instanceOfLabel": "country",
+        "countryLabel": "Qatar"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q846",
+        "officialWebsite": "https://www.diwan.gov.qa/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Doha%20West%20Bay.jpg",
+        "itemLabel": "Qatar",
+        "itemDescription": "country in West Asia",
+        "instanceOfLabel": "Emirate",
+        "countryLabel": "Qatar"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q846",
+        "officialWebsite": "https://www.diwan.gov.qa/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Doha%20West%20Bay.jpg",
+        "itemLabel": "Qatar",
+        "itemDescription": "country in West Asia",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Qatar"
+      }
+    ]
+  },
+  {
+    "entity": "United Arab Emirates",
+    "wikidata_id": "Q878",
+    "search_result": {
+      "id": "Q878",
+      "label": "United Arab Emirates",
+      "description": "country in Western Asia",
+      "url": "//www.wikidata.org/wiki/Q878"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q878",
+        "officialWebsite": "https://u.ae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Souq%20Al%20Bahar%20From%20Burj%20Khalifa%2C%20Dubai%20%287997597156%29.jpg",
+        "itemLabel": "United Arab Emirates",
+        "itemDescription": "country in Western Asia",
+        "instanceOfLabel": "country",
+        "countryLabel": "United Arab Emirates"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q878",
+        "officialWebsite": "https://u.ae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Souq%20Al%20Bahar%20From%20Burj%20Khalifa%2C%20Dubai%20%287997597156%29.jpg",
+        "itemLabel": "United Arab Emirates",
+        "itemDescription": "country in Western Asia",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "entity": "建筑外墙",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "阳台",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Catastrophe",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Terrorist attack",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "War zone",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "air show",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "aviation demonstration",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Burj Khalifa",
+    "wikidata_id": "Q12495",
+    "search_result": {
+      "id": "Q12495",
+      "label": "Burj Khalifa",
+      "description": "skyscraper in Dubai, United Arab Emirates",
+      "url": "//www.wikidata.org/wiki/Q12495"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q12495",
+        "officialWebsite": "http://www.burjkhalifa.ae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20skyline%202015%20%28crop%29.jpg",
+        "itemLabel": "Burj Khalifa",
+        "itemDescription": "skyscraper in Dubai, United Arab Emirates",
+        "instanceOfLabel": "skyscraper",
+        "countryLabel": "United Arab Emirates"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q12495",
+        "officialWebsite": "http://www.burjkhalifa.ae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20skyline%202015%20%28crop%29.jpg",
+        "itemLabel": "Burj Khalifa",
+        "itemDescription": "skyscraper in Dubai, United Arab Emirates",
+        "instanceOfLabel": "tourist attraction",
+        "countryLabel": "United Arab Emirates"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q12495",
+        "officialWebsite": "http://www.burjkhalifa.ae",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20skyline%202015%20%28crop%29.jpg",
+        "itemLabel": "Burj Khalifa",
+        "itemDescription": "skyscraper in Dubai, United Arab Emirates",
+        "instanceOfLabel": "architectural landmark",
+        "countryLabel": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "entity": "modern architecture",
+    "wikidata_id": "Q245188",
+    "search_result": {
+      "id": "Q245188",
+      "label": "modern architecture",
+      "description": "type of architecture",
+      "url": "//www.wikidata.org/wiki/Q245188"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q245188",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Brasilia%20Congresso%20Nacional%2005%202007%20221.jpg",
+        "itemLabel": "modern architecture",
+        "itemDescription": "type of architecture",
+        "instanceOfLabel": "architectural style",
+        "subclassOfLabel": "20th-century architecture"
+      }
+    ]
+  },
+  {
+    "entity": "skyscrapers",
+    "wikidata_id": "Q3962663",
+    "search_result": {
+      "id": "Q3962663",
+      "label": "Skyscrapers",
+      "description": "1906 short film",
+      "url": "//www.wikidata.org/wiki/Q3962663"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q3962663",
+        "itemLabel": "Skyscrapers",
+        "itemDescription": "1906 short film",
+        "instanceOfLabel": "short film"
+      }
+    ]
+  },
+  {
+    "entity": "UAE",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "阿拉伯",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]

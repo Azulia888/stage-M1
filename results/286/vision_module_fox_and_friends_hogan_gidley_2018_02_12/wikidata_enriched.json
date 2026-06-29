@@ -1,0 +1,394 @@
+[
+  {
+    "entity": "Porter",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Rob Porter",
+    "wikidata_id": "Q108055394",
+    "search_result": {
+      "id": "Q108055394",
+      "label": "Rob Porter",
+      "description": "American football player (born 1962)",
+      "url": "//www.wikidata.org/wiki/Q108055394"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q108055394",
+        "dateOfBirth": "1962-05-09T00:00:00Z",
+        "itemLabel": "Rob Porter",
+        "itemDescription": "American football player (born 1962)",
+        "instanceOfLabel": "human"
+      }
+    ]
+  },
+  {
+    "entity": "Sarah Huckabee Sanders",
+    "wikidata_id": "Q27986907",
+    "search_result": {
+      "id": "Q27986907",
+      "label": "Sarah Sanders",
+      "description": "Governor of Arkansas since 2023",
+      "url": "//www.wikidata.org/wiki/Q27986907"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q27986907",
+        "dateOfBirth": "1982-08-13T00:00:00Z",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarah%20Sanders%20September%202024%20%28cropped%29.jpg",
+        "itemLabel": "Sarah Sanders",
+        "itemDescription": "Governor of Arkansas since 2023",
+        "instanceOfLabel": "human"
+      }
+    ]
+  },
+  {
+    "entity": "TRUMP",
+    "wikidata_id": "Q16944413",
+    "search_result": {
+      "id": "Q16944413",
+      "label": "Trump",
+      "description": "family name",
+      "url": "//www.wikidata.org/wiki/Q16944413"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q16944413",
+        "itemLabel": "Trump",
+        "itemDescription": "family name",
+        "instanceOfLabel": "family name"
+      }
+    ]
+  },
+  {
+    "entity": "Trump",
+    "wikidata_id": "Q16944413",
+    "search_result": {
+      "id": "Q16944413",
+      "label": "Trump",
+      "description": "family name",
+      "url": "//www.wikidata.org/wiki/Q16944413"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q16944413",
+        "itemLabel": "Trump",
+        "itemDescription": "family name",
+        "instanceOfLabel": "family name"
+      }
+    ]
+  },
+  {
+    "entity": "FOX",
+    "wikidata_id": "Q166419",
+    "search_result": {
+      "id": "Q166419",
+      "label": "Fox Broadcasting Company",
+      "description": "American commercial broadcast television network",
+      "url": "//www.wikidata.org/wiki/Q166419"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q166419",
+        "officialWebsite": "https://fox.com",
+        "itemLabel": "Fox Broadcasting Company",
+        "itemDescription": "American commercial broadcast television network",
+        "instanceOfLabel": "television network",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q166419",
+        "officialWebsite": "https://fox.com",
+        "itemLabel": "Fox Broadcasting Company",
+        "itemDescription": "American commercial broadcast television network",
+        "instanceOfLabel": "television production company",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "FOX & friends",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "FOX NEWS",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "FOX NEWS channel",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Fox News",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Fox News channel",
+    "wikidata_id": "Q186068",
+    "search_result": {
+      "id": "Q186068",
+      "label": "Fox News",
+      "description": "American cable television news channel",
+      "url": "//www.wikidata.org/wiki/Q186068"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2012%20DNC%20day%203%20Fox%20News%20%287959676796%29.jpg",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "specialty channel",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2012%20DNC%20day%203%20Fox%20News%20%287959676796%29.jpg",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "United States cable news",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fox%20News%206th%2048%20jeh.JPG",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "specialty channel",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fox%20News%206th%2048%20jeh.JPG",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "United States cable news",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fox%20News%20Channel%20newsroom.jpg",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "specialty channel",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q186068",
+        "officialWebsite": "https://foxnews.com",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fox%20News%20Channel%20newsroom.jpg",
+        "itemLabel": "Fox News",
+        "itemDescription": "American cable television news channel",
+        "instanceOfLabel": "United States cable news",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "TPM TV [Archive]",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Isla Margarita",
+    "wikidata_id": "Q21837066",
+    "search_result": {
+      "id": "Q21837066",
+      "label": "Isla Margarita",
+      "description": "island in Buenos Aires Province, Argentina",
+      "url": "//www.wikidata.org/wiki/Q21837066"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q21837066",
+        "itemLabel": "Isla Margarita",
+        "itemDescription": "island in Buenos Aires Province, Argentina",
+        "instanceOfLabel": "island",
+        "countryLabel": "Argentina"
+      }
+    ]
+  },
+  {
+    "entity": "New York City",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Office",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Studio",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "THE WHITE HOUSE",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "TV studio (FOX & friends set)",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "U.S. (USA)",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Washington DC",
+    "wikidata_id": "Q61",
+    "search_result": {
+      "id": "Q61",
+      "label": "Washington, D.C.",
+      "description": "capital city of the United States of America",
+      "url": "//www.wikidata.org/wiki/Q61"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "federal capital",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "human settlement",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "city in the United States",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "big city",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "planned national capital",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q61",
+        "officialWebsite": "https://dc.gov/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+        "itemLabel": "Washington, D.C.",
+        "itemDescription": "capital city of the United States of America",
+        "instanceOfLabel": "political city",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "White House",
+    "wikidata_id": "Q35525",
+    "search_result": {
+      "id": "Q35525",
+      "label": "White House",
+      "description": "official residence and office of the President of the United States",
+      "url": "//www.wikidata.org/wiki/Q35525"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "tourist attraction",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "mansion",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "presidential palace",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "civic building",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "White House (background behind field reporter)",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "outside building",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "American",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]

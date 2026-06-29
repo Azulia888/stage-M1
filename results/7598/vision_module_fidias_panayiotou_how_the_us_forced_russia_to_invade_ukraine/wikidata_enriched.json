@@ -1,0 +1,1545 @@
+[
+  {
+    "entity": "Anton Blenkin",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Boris Yeltsin",
+    "wikidata_id": "Q34453",
+    "search_result": {
+      "id": "Q34453",
+      "label": "Boris Yeltsin",
+      "description": "Soviet and Russian politician, 1st President of Russia (1931–2007)",
+      "url": "//www.wikidata.org/wiki/Q34453"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q34453",
+        "dateOfBirth": "1931-02-01T00:00:00Z",
+        "dateOfDeath": "2007-04-23T00:00:00Z",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D1%80%D0%B8%D1%81%20%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87%20%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1.jpg",
+        "itemLabel": "Boris Yeltsin",
+        "itemDescription": "Soviet and Russian politician, 1st President of Russia (1931–2007)",
+        "instanceOfLabel": "human"
+      }
+    ]
+  },
+  {
+    "entity": "Gerard de Jong",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Günter Steinmeier",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Jack Doyle",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Jeffrey Sachs",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Jeffriz Axis",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Peter Piotr",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Petro Poroshenko",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Romeo Lanna",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Sergei Lavrov",
+    "wikidata_id": "Q58217",
+    "search_result": {
+      "id": "Q58217",
+      "label": "Sergey Lavrov",
+      "description": "Russian politician of Armenian origin, Minister of Foreign Affairs",
+      "url": "//www.wikidata.org/wiki/Q58217"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q58217",
+        "dateOfBirth": "1950-03-21T00:00:00Z",
+        "officialWebsite": "https://mid.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%9B%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%20%2829-05-2025%29%20%28cropped%29.jpg",
+        "itemLabel": "Sergey Lavrov",
+        "itemDescription": "Russian politician of Armenian origin, Minister of Foreign Affairs",
+        "instanceOfLabel": "human"
+      }
+    ]
+  },
+  {
+    "entity": "Trump",
+    "wikidata_id": "Q16944413",
+    "search_result": {
+      "id": "Q16944413",
+      "label": "Trump",
+      "description": "family name",
+      "url": "//www.wikidata.org/wiki/Q16944413"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q16944413",
+        "itemLabel": "Trump",
+        "itemDescription": "family name",
+        "instanceOfLabel": "family name"
+      }
+    ]
+  },
+  {
+    "entity": "Victoria Nuland",
+    "wikidata_id": "Q1188501",
+    "search_result": {
+      "id": "Q1188501",
+      "label": "Victoria Nuland",
+      "description": "American diplomat (born 1961)",
+      "url": "//www.wikidata.org/wiki/Q1188501"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1188501",
+        "dateOfBirth": "1961-07-01T00:00:00Z",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Nuland%202021.jpg",
+        "itemLabel": "Victoria Nuland",
+        "itemDescription": "American diplomat (born 1961)",
+        "instanceOfLabel": "human"
+      }
+    ]
+  },
+  {
+    "entity": "Viktor Yanukovich",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Yanukovych",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Belarus",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Bulgaria",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Canada",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Columbia University",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Czech Republic",
+    "wikidata_id": "Q213",
+    "search_result": {
+      "id": "Q213",
+      "label": "Czech Republic",
+      "description": "country in Central Europe",
+      "url": "//www.wikidata.org/wiki/Q213"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "country",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "republic",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "landlocked country",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "successor state",
+        "countryLabel": "Czech Republic"
+      }
+    ]
+  },
+  {
+    "entity": "Denmark",
+    "wikidata_id": "Q35",
+    "search_result": {
+      "id": "Q35",
+      "label": "Denmark",
+      "description": "country in Northern Europe",
+      "url": "//www.wikidata.org/wiki/Q35"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q35",
+        "officialWebsite": "http://www.denmark.dk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg",
+        "itemLabel": "Denmark",
+        "itemDescription": "country in Northern Europe",
+        "instanceOfLabel": "country",
+        "countryLabel": "Kingdom of Denmark"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35",
+        "officialWebsite": "http://www.denmark.dk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg",
+        "itemLabel": "Denmark",
+        "itemDescription": "country in Northern Europe",
+        "instanceOfLabel": "state",
+        "countryLabel": "Kingdom of Denmark"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35",
+        "officialWebsite": "http://www.denmark.dk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg",
+        "itemLabel": "Denmark",
+        "itemDescription": "country in Northern Europe",
+        "instanceOfLabel": "colonial power",
+        "countryLabel": "Kingdom of Denmark"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35",
+        "officialWebsite": "http://www.denmark.dk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg",
+        "itemLabel": "Denmark",
+        "itemDescription": "country in Northern Europe",
+        "instanceOfLabel": "country bordering the Baltic Sea",
+        "countryLabel": "Kingdom of Denmark"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35",
+        "officialWebsite": "http://www.denmark.dk",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg",
+        "itemLabel": "Denmark",
+        "itemDescription": "country in Northern Europe",
+        "instanceOfLabel": "autonomous country within the Kingdom of Denmark",
+        "countryLabel": "Kingdom of Denmark"
+      }
+    ]
+  },
+  {
+    "entity": "EU",
+    "wikidata_id": "Q8752",
+    "search_result": {
+      "id": "Q8752",
+      "label": "Basque",
+      "description": "language of the Basque people",
+      "url": "//www.wikidata.org/wiki/Q8752"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Southern European language",
+        "countryLabel": "Spain"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Southern European language",
+        "countryLabel": "Spain"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Basque languages",
+        "countryLabel": "Spain"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Basque languages",
+        "countryLabel": "Spain"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Southern European language",
+        "countryLabel": "France"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Southern European language",
+        "countryLabel": "France"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Basque languages",
+        "countryLabel": "France"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q8752",
+        "officialWebsite": "http://www.euskaltzaindia.net",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ascain%20St%C3%A8le%20disco%C3%AFdale.jpg",
+        "itemLabel": "Basque",
+        "itemDescription": "language of the Basque people",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Basque languages",
+        "countryLabel": "France"
+      }
+    ]
+  },
+  {
+    "entity": "European Parliament",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Georgia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Germany",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Hungary",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "NATO",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Poland",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Romania",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Russia",
+    "wikidata_id": "Q159",
+    "search_result": {
+      "id": "Q159",
+      "label": "Russia",
+      "description": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+      "url": "//www.wikidata.org/wiki/Q159"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q159",
+        "officialWebsite": "http://gov.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kremlin%20Moscow.jpg",
+        "itemLabel": "Russia",
+        "itemDescription": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+        "instanceOfLabel": "country",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q159",
+        "officialWebsite": "http://gov.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kremlin%20Moscow.jpg",
+        "itemLabel": "Russia",
+        "itemDescription": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+        "instanceOfLabel": "secular state",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q159",
+        "officialWebsite": "http://gov.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kremlin%20Moscow.jpg",
+        "itemLabel": "Russia",
+        "itemDescription": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+        "instanceOfLabel": "transcontinental country",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q159",
+        "officialWebsite": "http://gov.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kremlin%20Moscow.jpg",
+        "itemLabel": "Russia",
+        "itemDescription": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q159",
+        "officialWebsite": "http://gov.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kremlin%20Moscow.jpg",
+        "itemLabel": "Russia",
+        "itemDescription": "country in Eastern Europe and Northern Asia, the largest in the world by area",
+        "instanceOfLabel": "successor state",
+        "countryLabel": "Russia"
+      }
+    ]
+  },
+  {
+    "entity": "Slovakia",
+    "wikidata_id": "Q214",
+    "search_result": {
+      "id": "Q214",
+      "label": "Slovakia",
+      "description": "country in Central Europe",
+      "url": "//www.wikidata.org/wiki/Q214"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q214",
+        "officialWebsite": "https://www.slovakia.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/000%20Sllovakia%20harta.PNG",
+        "itemLabel": "Slovakia",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "country",
+        "countryLabel": "Slovakia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q214",
+        "officialWebsite": "https://www.slovakia.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/000%20Sllovakia%20harta.PNG",
+        "itemLabel": "Slovakia",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "republic",
+        "countryLabel": "Slovakia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q214",
+        "officialWebsite": "https://www.slovakia.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/000%20Sllovakia%20harta.PNG",
+        "itemLabel": "Slovakia",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "landlocked country",
+        "countryLabel": "Slovakia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q214",
+        "officialWebsite": "https://www.slovakia.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/000%20Sllovakia%20harta.PNG",
+        "itemLabel": "Slovakia",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Slovakia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q214",
+        "officialWebsite": "https://www.slovakia.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/000%20Sllovakia%20harta.PNG",
+        "itemLabel": "Slovakia",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "successor state",
+        "countryLabel": "Slovakia"
+      }
+    ]
+  },
+  {
+    "entity": "Slovenia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Sweden",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Turkey",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "USA",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United Kingdom",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United Nations",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Baltic states",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Bulgaria",
+    "wikidata_id": "Q219",
+    "search_result": {
+      "id": "Q219",
+      "label": "Bulgaria",
+      "description": "country in southeast Europe",
+      "url": "//www.wikidata.org/wiki/Q219"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q219",
+        "officialWebsite": "http://www.government.bg/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rila%20Monastery%2C%20August%202013.jpg",
+        "itemLabel": "Bulgaria",
+        "itemDescription": "country in southeast Europe",
+        "instanceOfLabel": "country",
+        "countryLabel": "Bulgaria"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q219",
+        "officialWebsite": "http://www.government.bg/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rila%20Monastery%2C%20August%202013.jpg",
+        "itemLabel": "Bulgaria",
+        "itemDescription": "country in southeast Europe",
+        "instanceOfLabel": "unitary state",
+        "countryLabel": "Bulgaria"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q219",
+        "officialWebsite": "http://www.government.bg/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rila%20Monastery%2C%20August%202013.jpg",
+        "itemLabel": "Bulgaria",
+        "itemDescription": "country in southeast Europe",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "entity": "Czech Republic",
+    "wikidata_id": "Q213",
+    "search_result": {
+      "id": "Q213",
+      "label": "Czech Republic",
+      "description": "country in Central Europe",
+      "url": "//www.wikidata.org/wiki/Q213"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "country",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "republic",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "landlocked country",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "Czech Republic"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q213",
+        "officialWebsite": "https://www.czechia.eu/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg",
+        "itemLabel": "Czech Republic",
+        "itemDescription": "country in Central Europe",
+        "instanceOfLabel": "successor state",
+        "countryLabel": "Czech Republic"
+      }
+    ]
+  },
+  {
+    "entity": "Donbass",
+    "wikidata_id": "Q16335075",
+    "search_result": {
+      "id": "Q16335075",
+      "label": "War in Donbas",
+      "description": "2014–2022 war between Ukraine and Russia in the Donbas region of Ukraine",
+      "url": "//www.wikidata.org/wiki/Q16335075"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q16335075",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2014-04-15.%20%D0%9F%D1%80%D0%BE%D1%82%D0%B5%D1%81%D1%82%D1%8B%20%D0%B2%20%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5%20001.jpg",
+        "itemLabel": "War in Donbas",
+        "itemDescription": "2014–2022 war between Ukraine and Russia in the Donbas region of Ukraine",
+        "instanceOfLabel": "armed conflict",
+        "subclassOfLabel": "right of revolution",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q16335075",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2014-04-15.%20%D0%9F%D1%80%D0%BE%D1%82%D0%B5%D1%81%D1%82%D1%8B%20%D0%B2%20%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5%20001.jpg",
+        "itemLabel": "War in Donbas",
+        "itemDescription": "2014–2022 war between Ukraine and Russia in the Donbas region of Ukraine",
+        "instanceOfLabel": "combat operations",
+        "subclassOfLabel": "right of revolution",
+        "countryLabel": "Ukraine"
+      }
+    ]
+  },
+  {
+    "entity": "Donetsk",
+    "wikidata_id": "Q43070",
+    "search_result": {
+      "id": "Q43070",
+      "label": "Donetsk",
+      "description": "city in Ukraine",
+      "url": "//www.wikidata.org/wiki/Q43070"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q43070",
+        "officialWebsite": "https://gorod-donetsk.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4%20%D0%B8%D0%B7%20%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20003.jpg",
+        "itemLabel": "Donetsk",
+        "itemDescription": "city in Ukraine",
+        "instanceOfLabel": "city in Ukraine",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q43070",
+        "officialWebsite": "https://donetsk.gosuslugi.ru/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4%20%D0%B8%D0%B7%20%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20003.jpg",
+        "itemLabel": "Donetsk",
+        "itemDescription": "city in Ukraine",
+        "instanceOfLabel": "city in Ukraine",
+        "countryLabel": "Ukraine"
+      }
+    ]
+  },
+  {
+    "entity": "Europe",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Georgia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Hungary",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Kaliningrad",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Kazan",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Kharkiv",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Kiev",
+    "wikidata_id": "Q1899",
+    "search_result": {
+      "id": "Q1899",
+      "label": "Kyiv",
+      "description": "capital and largest city of Ukraine",
+      "url": "//www.wikidata.org/wiki/Q1899"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "tourist destination",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "city or town",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "city in Ukraine",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "largest city",
+        "countryLabel": "Ukraine"
+      }
+    ]
+  },
+  {
+    "entity": "Kyiv",
+    "wikidata_id": "Q1899",
+    "search_result": {
+      "id": "Q1899",
+      "label": "Kyiv",
+      "description": "capital and largest city of Ukraine",
+      "url": "//www.wikidata.org/wiki/Q1899"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "tourist destination",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "city or town",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "city in Ukraine",
+        "countryLabel": "Ukraine"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1899",
+        "officialWebsite": "https://kyivcity.gov.ua",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20%28234807751%29.jpeg",
+        "itemLabel": "Kyiv",
+        "itemDescription": "capital and largest city of Ukraine",
+        "instanceOfLabel": "largest city",
+        "countryLabel": "Ukraine"
+      }
+    ]
+  },
+  {
+    "entity": "Mariupol",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Poland",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Romania",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Russia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Saratov",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Slovakia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Slovenia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Ukraine",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": "Q30",
+    "search_result": {
+      "id": "Q30",
+      "label": "United States",
+      "description": "country located primarily in North America",
+      "url": "//www.wikidata.org/wiki/Q30"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q30",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20-%20Location%20Map%20%282013%29%20-%20USA%20-%20UNOCHA.svg",
+        "itemLabel": "United States",
+        "itemDescription": "country located primarily in North America",
+        "instanceOfLabel": "country",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q30",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20-%20Location%20Map%20%282013%29%20-%20USA%20-%20UNOCHA.svg",
+        "itemLabel": "United States",
+        "itemDescription": "country located primarily in North America",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "2007",
+    "wikidata_id": "Q2024",
+    "search_result": {
+      "id": "Q2024",
+      "label": "2007",
+      "description": "calendar year",
+      "url": "//www.wikidata.org/wiki/Q2024"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q2024",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2007scouting.jpg",
+        "itemLabel": "2007",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "common year starting and ending on Monday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q2024",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2007scouting.jpg",
+        "itemLabel": "2007",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "common year"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q2024",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2007scouting.jpg",
+        "itemLabel": "2007",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "2008",
+    "wikidata_id": "Q2004",
+    "search_result": {
+      "id": "Q2004",
+      "label": "2008",
+      "description": "year",
+      "url": "//www.wikidata.org/wiki/Q2004"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q2004",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LebanonBolognaDrop2008.jpg",
+        "itemLabel": "2008",
+        "itemDescription": "year",
+        "instanceOfLabel": "leap year"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q2004",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LebanonBolognaDrop2008.jpg",
+        "itemLabel": "2008",
+        "itemDescription": "year",
+        "instanceOfLabel": "leap year starting on Tuesday and ending on Wednesday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q2004",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LebanonBolognaDrop2008.jpg",
+        "itemLabel": "2008",
+        "itemDescription": "year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "2010",
+    "wikidata_id": "Q1995",
+    "search_result": {
+      "id": "Q1995",
+      "label": "2010",
+      "description": "calendar year",
+      "url": "//www.wikidata.org/wiki/Q1995"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1995",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2010%20new%20year%27s%20card%20by%20David%20Revoy.jpg",
+        "itemLabel": "2010",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "common year starting and ending on Friday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1995",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2010%20new%20year%27s%20card%20by%20David%20Revoy.jpg",
+        "itemLabel": "2010",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "common year"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1995",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2010%20new%20year%27s%20card%20by%20David%20Revoy.jpg",
+        "itemLabel": "2010",
+        "itemDescription": "calendar year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "2014",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2021",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2022",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "European Parliament lecture",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Minsk Agreement",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "NATO eastward expansion",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "NATO enlargement",
+    "wikidata_id": "Q1367724",
+    "search_result": {
+      "id": "Q1367724",
+      "label": "enlargement of NATO",
+      "description": "accession process of new countries to the North Atlantic Treaty Organization",
+      "url": "//www.wikidata.org/wiki/Q1367724"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1367724",
+        "itemLabel": "enlargement of NATO",
+        "itemDescription": "accession process of new countries to the North Atlantic Treaty Organization",
+        "subclassOfLabel": "increase"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1367724",
+        "itemLabel": "enlargement of NATO",
+        "itemDescription": "accession process of new countries to the North Atlantic Treaty Organization",
+        "subclassOfLabel": "enrollment"
+      }
+    ]
+  },
+  {
+    "entity": "NATO enlargement to Ukraine",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "NATO enlargement to Ukraine and Georgia",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Russo-Georgian War",
+    "wikidata_id": "Q620735",
+    "search_result": {
+      "id": "Q620735",
+      "label": "Russo-Georgian War",
+      "description": "2008 Russian invasion of Georgia",
+      "url": "//www.wikidata.org/wiki/Q620735"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mirazh2007.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "war"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mirazh2007.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "military operation"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/File-Georgia%202008%20war%2002.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "war"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/File-Georgia%202008%20war%2002.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "military operation"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%202008%20war%2001.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "war"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%202008%20war%2001.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "military operation"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tskhinval%20Yana%20Amelina%2010.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "war"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q620735",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tskhinval%20Yana%20Amelina%2010.jpg",
+        "itemLabel": "Russo-Georgian War",
+        "itemDescription": "2008 Russian invasion of Georgia",
+        "instanceOfLabel": "military operation"
+      }
+    ]
+  },
+  {
+    "entity": "Sachs World Conference",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Soviet Union collapse",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Soviet Union ended",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "UN Conference",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United Nations Security Council",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "unilateral withdrawal",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "1994",
+    "wikidata_id": "Q2067",
+    "search_result": {
+      "id": "Q2067",
+      "label": "1994",
+      "description": "year",
+      "url": "//www.wikidata.org/wiki/Q2067"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q2067",
+        "itemLabel": "1994",
+        "itemDescription": "year",
+        "instanceOfLabel": "common year starting and ending on Saturday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q2067",
+        "itemLabel": "1994",
+        "itemDescription": "year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "map",
+    "wikidata_id": "Q4006",
+    "search_result": {
+      "id": "Q4006",
+      "label": "map",
+      "description": "publication type or genre, visual representation of geographic space",
+      "url": "//www.wikidata.org/wiki/Q4006"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "genre",
+        "subclassOfLabel": "cartographic work"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "type of map",
+        "subclassOfLabel": "cartographic work"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "genre",
+        "subclassOfLabel": "cartographic material"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "type of map",
+        "subclassOfLabel": "cartographic material"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "genre",
+        "subclassOfLabel": "cartographic product"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Btv1b530849639%20plan%20du%20port%20et%20de%20la%20ville%20de%20Brest%201855%20restored.jpg",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "type of map",
+        "subclassOfLabel": "cartographic product"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topographic%20map%20of%20Jezero%20crater%20and%20surrounds%20%28annotated%29%20ESA23162625.png",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "genre",
+        "subclassOfLabel": "cartographic work"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topographic%20map%20of%20Jezero%20crater%20and%20surrounds%20%28annotated%29%20ESA23162625.png",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "type of map",
+        "subclassOfLabel": "cartographic work"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topographic%20map%20of%20Jezero%20crater%20and%20surrounds%20%28annotated%29%20ESA23162625.png",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "genre",
+        "subclassOfLabel": "cartographic material"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q4006",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topographic%20map%20of%20Jezero%20crater%20and%20surrounds%20%28annotated%29%20ESA23162625.png",
+        "itemLabel": "map",
+        "itemDescription": "publication type or genre, visual representation of geographic space",
+        "instanceOfLabel": "type of map",
+        "subclassOfLabel": "cartographic material"
+      }
+    ]
+  },
+  {
+    "entity": "1991",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "1994",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "1999",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2004",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2007",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2008",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2010",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2014",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2021",
+    "wikidata_id": "Q49628",
+    "search_result": {
+      "id": "Q49628",
+      "label": "2021",
+      "description": "year",
+      "url": "//www.wikidata.org/wiki/Q49628"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q49628",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2021-01-01%20happy-new-year%20Pepper%20and%20Carrot%20by%20David%20Revoy.jpg",
+        "itemLabel": "2021",
+        "itemDescription": "year",
+        "instanceOfLabel": "common year starting and ending on Friday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q49628",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2021-01-01%20happy-new-year%20Pepper%20and%20Carrot%20by%20David%20Revoy.jpg",
+        "itemLabel": "2021",
+        "itemDescription": "year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "2022",
+    "wikidata_id": "Q49625",
+    "search_result": {
+      "id": "Q49625",
+      "label": "2022",
+      "description": "year",
+      "url": "//www.wikidata.org/wiki/Q49625"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q49625",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2022%20%D0%B3%D0%BE%D0%B4%2C%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%D1%8F%20%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D1%8B%D0%BD%D0%BE%20%2802.01.2022%29.jpg",
+        "itemLabel": "2022",
+        "itemDescription": "year",
+        "instanceOfLabel": "common year starting and ending on Saturday"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q49625",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2022%20%D0%B3%D0%BE%D0%B4%2C%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F%D1%8F%20%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D1%8B%D0%BD%D0%BE%20%2802.01.2022%29.jpg",
+        "itemLabel": "2022",
+        "itemDescription": "year",
+        "instanceOfLabel": "calendar year"
+      }
+    ]
+  },
+  {
+    "entity": "English",
+    "wikidata_id": "Q1860",
+    "search_result": {
+      "id": "Q1860",
+      "label": "English",
+      "description": "West Germanic language",
+      "url": "//www.wikidata.org/wiki/Q1860"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      }
+    ]
+  },
+  {
+    "entity": "russian",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]

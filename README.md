@@ -108,6 +108,8 @@ projet/
   vision_module.py        # VisionModule: orchestrates the tool pipeline
   vision_tool.py           # backward-compat shim re-exporting vision_tools/*
   vision_tools/            # one module per tool
+  pipeline_timer.py        # shared elapsed-time clock for a pipeline run
+  exports/                 # auto-saved console logs (and manual .pkl exports)
   gui/                     # PySide6 desktop GUI
     main.py
     launch_window.py
@@ -127,10 +129,14 @@ python gui/main.py
 
 1. Choose a source: a URL (downloaded via yt-dlp) or a local file.
 2. Choose the media type: Video or Image.
-3. Click "Run analysis". A console log streams tool output live.
-4. When finished, a graph opens: one node per tool, colour-coded by
-   confidence. Click any node for its explanation, confidence, and raw
-   output.
+3. Click "Run analysis". A console log streams tool output live, each line
+   timestamped with the time elapsed since the pipeline launched; each tool
+   reports its own run time once it finishes.
+4. When the run ends, the total elapsed time is shown in the top-right
+   corner, and the full console output is saved to
+   `exports/console_log.txt`.
+5. A graph then opens: one node per tool, colour-coded by confidence. Click
+   any node for its explanation, confidence, and raw output.
 
 ## 4. Running the pipeline without the GUI
 

@@ -1,0 +1,444 @@
+[
+  {
+    "entity": "Divine Herbal Roots",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "man",
+    "wikidata_id": "Q6581097",
+    "search_result": {
+      "id": "Q6581097",
+      "label": "male",
+      "description": "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person",
+      "url": "//www.wikidata.org/wiki/Q6581097"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q6581097",
+        "itemLabel": "male",
+        "itemDescription": "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person",
+        "instanceOfLabel": "gender identity",
+        "subclassOfLabel": "gendered"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q6581097",
+        "itemLabel": "male",
+        "itemDescription": "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person",
+        "instanceOfLabel": "sex of humans",
+        "subclassOfLabel": "gendered"
+      }
+    ]
+  },
+  {
+    "entity": "pig",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Divine Herbal Roots",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "TikTok",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "European countries",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "0000-00-00",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "June 29, 2026",
+    "wikidata_id": "Q69307955",
+    "search_result": {
+      "id": "Q69307955",
+      "label": "June 29, 2026",
+      "description": "date in Gregorian calendar",
+      "url": "//www.wikidata.org/wiki/Q69307955"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q69307955",
+        "itemLabel": "June 29, 2026",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "June 29"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q69307955",
+        "itemLabel": "June 29, 2026",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "calendar day of a given year"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q69307955",
+        "itemLabel": "June 29, 2026",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "fifth Monday in June"
+      }
+    ]
+  },
+  {
+    "entity": "September 25, 2023",
+    "wikidata_id": "Q69306933",
+    "search_result": {
+      "id": "Q69306933",
+      "label": "September 25, 2023",
+      "description": "date in Gregorian calendar",
+      "url": "//www.wikidata.org/wiki/Q69306933"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q69306933",
+        "itemLabel": "September 25, 2023",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "September 25"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q69306933",
+        "itemLabel": "September 25, 2023",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "calendar day of a given year"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q69306933",
+        "itemLabel": "September 25, 2023",
+        "itemDescription": "date in Gregorian calendar",
+        "instanceOfLabel": "fourth Monday in September"
+      }
+    ]
+  },
+  {
+    "entity": "baking soda",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "coconut oil",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "essential oils",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "flouride",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "sea salt",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "toothpaste",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "English",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "en",
+    "wikidata_id": "Q1860",
+    "search_result": {
+      "id": "Q1860",
+      "label": "English",
+      "description": "West Germanic language",
+      "url": "//www.wikidata.org/wiki/Q1860"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Canada"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Ireland"
+      }
+    ]
+  },
+  {
+    "entity": "english",
+    "wikidata_id": "Q1860",
+    "search_result": {
+      "id": "Q1860",
+      "label": "English",
+      "description": "West Germanic language",
+      "url": "//www.wikidata.org/wiki/Q1860"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Kiribati"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Kiribati"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Kiribati"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "standard language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "literary language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q1860",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Shakespeare%20-%20Sonnet%20XXX%20-%20Rapenburg%2030%2C%20Leiden%20%28cropped%29.JPG",
+        "itemLabel": "English",
+        "itemDescription": "West Germanic language",
+        "instanceOfLabel": "human language",
+        "subclassOfLabel": "Anglic",
+        "countryLabel": "Fiji"
+      }
+    ]
+  },
+  {
+    "entity": "American",
+    "wikidata_id": "Q7976",
+    "search_result": {
+      "id": "Q7976",
+      "label": "American English",
+      "description": "set of dialects of the English language spoken in the United States",
+      "url": "//www.wikidata.org/wiki/Q7976"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q7976",
+        "itemLabel": "American English",
+        "itemDescription": "set of dialects of the English language spoken in the United States",
+        "instanceOfLabel": "dialect",
+        "subclassOfLabel": "North American English",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q7976",
+        "itemLabel": "American English",
+        "itemDescription": "set of dialects of the English language spoken in the United States",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "North American English",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q7976",
+        "itemLabel": "American English",
+        "itemDescription": "set of dialects of the English language spoken in the United States",
+        "instanceOfLabel": "ethnolect",
+        "subclassOfLabel": "North American English",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "European",
+    "wikidata_id": "Q46",
+    "search_result": {
+      "id": "Q46",
+      "label": "Europe",
+      "description": "terrestrial continent located in north-western Eurasia",
+      "url": "//www.wikidata.org/wiki/Q46"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q46",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Europe%20satellite%20orthographic.jpg",
+        "itemLabel": "Europe",
+        "itemDescription": "terrestrial continent located in north-western Eurasia",
+        "instanceOfLabel": "continent"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q46",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Europe%20satellite%20orthographic.jpg",
+        "itemLabel": "Europe",
+        "itemDescription": "terrestrial continent located in north-western Eurasia",
+        "instanceOfLabel": "part of the world"
+      }
+    ]
+  },
+  {
+    "entity": "american",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]

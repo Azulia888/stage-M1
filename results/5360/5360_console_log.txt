@@ -1,0 +1,264 @@
+[00:02] TranscriptTool: loading Whisper model 'base'...
+[00:04] TranscriptTool: transcribing '/home/azulia/Documents/code/stage-M1/videos/5360.mp4'...
+[00:17] [Transcript] module finished in 00:17
+[00:17] KeyFrameExtractionTool: saved 10 frames to /home/azulia/Documents/code/stage-M1/videos/5360_keyframes (duration=59.4s, count=10)
+[00:17] [Keyframes] module finished in 00:00
+[00:17] [Metadata Gatherer] module finished in 00:00
+[00:17] MetadataAnalyzerTool: single-call path (241 chars).
+[00:28] [Metadata Analyzer] module finished in 00:11
+[00:56] [OCR] module finished in 00:28
+[00:56] DescriptionTool: 20 frames to describe.
+[00:56]   [1/20] 00:00:00 ...
+[01:03]   [2/20] 00:00:03 ...
+[01:10]   [3/20] 00:00:06 ...
+[01:16]   [4/20] 00:00:09 ...
+[01:25]   [5/20] 00:00:12 ...
+[01:33]   [6/20] 00:00:15 ...
+[01:41]   [7/20] 00:00:18 ...
+[01:47]   [8/20] 00:00:21 ...
+[01:55]   [9/20] 00:00:24 ...
+[02:01]   [10/20] 00:00:28 ...
+[02:06]   [11/20] 00:00:31 ...
+[02:13]   [12/20] 00:00:34 ...
+[02:16]   [13/20] 00:00:37 ...
+[02:24]   [14/20] 00:00:40 ...
+[02:30]   [15/20] 00:00:43 ...
+[02:36]   [16/20] 00:00:46 ...
+[02:43]   [17/20] 00:00:50 ...
+[02:48]   [18/20] 00:00:53 ...
+[02:54]   [19/20] 00:00:56 ...
+[02:58]   [20/20] 00:00:59 ...
+[03:02] DescriptionTool: synthesizing...
+[03:17] [Description] module finished in 02:21
+[03:17] LipSyncDetectionTool: SYNCNET_DIR '/home/azulia/Documents/code/stage-M1/results/5360/syncnet_python' not found. Clone https://github.com/joonson/syncnet_python and set the SYNCNET_DIR environment variable.
+[03:17] [Lipsync Detection] module finished in 00:00
+[03:17] WeatherTool: analysing frame...
+[03:23] WeatherTool: analysing frame...
+[03:30] WeatherTool: analysing frame...
+[03:35] WeatherTool: analysing frame...
+[03:41] WeatherTool: analysing frame...
+[03:47] WeatherTool: analysing frame...
+[03:54] WeatherTool: analysing frame...
+[03:59] WeatherTool: analysing frame...
+[04:04] WeatherTool: analysing frame...
+[04:11] WeatherTool: analysing frame...
+[04:18] WeatherTool: synthesising...
+[04:28] [Weather Detection] module finished in 01:11
+[04:28] GeolocationTool: analysing frame...
+[04:35] GeolocationTool: analysing frame...
+[04:43] GeolocationTool: analysing frame...
+[04:51] GeolocationTool: analysing frame...
+[05:01] GeolocationTool: analysing frame...
+[05:13] GeolocationTool: analysing frame...
+[05:21] GeolocationTool: analysing frame...
+[05:29] GeolocationTool: analysing frame...
+[05:36] GeolocationTool: analysing frame...
+[05:44] GeolocationTool: analysing frame...
+[05:51] GeolocationTool: synthesising...
+[06:02] [Geolocation] module finished in 01:33
+[06:02] NERTool: visual NER on frame 1/10 (frame_00000_00h00m00s000ms.jpg) ...
+[06:07] NERTool: visual NER on frame 2/10 (frame_00001_00h00m06s596ms.jpg) ...
+[06:15] NERTool: visual NER on frame 3/10 (frame_00002_00h00m13s192ms.jpg) ...
+[06:23] NERTool: visual NER on frame 4/10 (frame_00003_00h00m19s788ms.jpg) ...
+[06:35] NERTool: visual NER on frame 5/10 (frame_00004_00h00m26s385ms.jpg) ...
+[06:42] NERTool: visual NER on frame 6/10 (frame_00005_00h00m32s981ms.jpg) ...
+[06:48] NERTool: visual NER on frame 7/10 (frame_00006_00h00m39s577ms.jpg) ...
+[06:53] NERTool: visual NER on frame 8/10 (frame_00007_00h00m46s174ms.jpg) ...
+[07:00] NERTool: visual NER on frame 9/10 (frame_00008_00h00m52s770ms.jpg) ...
+[07:05] NERTool: visual NER on frame 10/10 (frame_00009_00h00m59s400ms.jpg) ...
+[07:29] [NER] module finished in 01:28
+[07:29] ReverseImageSearchTool: scoring frame 1/10 (frame_00000_00h00m00s000ms.jpg) ...
+[07:33] ReverseImageSearchTool: scoring frame 2/10 (frame_00001_00h00m06s596ms.jpg) ...
+[07:38] ReverseImageSearchTool: scoring frame 3/10 (frame_00002_00h00m13s192ms.jpg) ...
+[07:42] ReverseImageSearchTool: scoring frame 4/10 (frame_00003_00h00m19s788ms.jpg) ...
+[07:47] ReverseImageSearchTool: scoring frame 5/10 (frame_00004_00h00m26s385ms.jpg) ...
+[07:50] ReverseImageSearchTool: scoring frame 6/10 (frame_00005_00h00m32s981ms.jpg) ...
+[07:55] ReverseImageSearchTool: scoring frame 7/10 (frame_00006_00h00m39s577ms.jpg) ...
+[07:59] ReverseImageSearchTool: scoring frame 8/10 (frame_00007_00h00m46s174ms.jpg) ...
+[08:03] ReverseImageSearchTool: scoring frame 9/10 (frame_00008_00h00m52s770ms.jpg) ...
+[08:08] ReverseImageSearchTool: scoring frame 10/10 (frame_00009_00h00m59s400ms.jpg) ...
+[08:12] ReverseImageSearchTool: best frame score = 9/10 (frame_00009_00h00m59s400ms.jpg)
+[08:12] ReverseImageSearchTool: running SerpApi RIS on '/home/azulia/Documents/code/stage-M1/videos/5360_keyframes/frame_00009_00h00m59s400ms.jpg' ...
+[08:13] [upload] Image hosted at: https://i.ibb.co/mC0PxXgP/997059d58f1b.jpg
+[08:38] [Reverse Image Search] module finished in 01:09
+[08:38] Processing: Man behind cart in center
+[08:40]   No result found.
+[08:45] Processing: Man in striped shirt standing near center
+[08:45]   [search error] Man in striped shirt standing near center: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+striped+shirt+standing+near+center&language=en&format=json&type=item&limit=1
+[08:45]   No result found.
+[08:50] Processing: Man in striped shirt with striped shorts
+[08:51]   [search error] Man in striped shirt with striped shorts: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+striped+shirt+with+striped+shorts&language=en&format=json&type=item&limit=1
+[08:52]   No result found.
+[08:57] Processing: Man in white outfit standing right
+[08:57]   [search error] Man in white outfit standing right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+white+outfit+standing+right&language=en&format=json&type=item&limit=1
+[08:58]   No result found.
+[09:03] Processing: Man in white shirt with black bag standing on steps
+[09:03]   [search error] Man in white shirt with black bag standing on steps: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+white+shirt+with+black+bag+standing+on+steps&language=en&format=json&type=item&limit=1
+[09:04]   No result found.
+[09:09] Processing: Man in white uniform in background center
+[09:09]   [search error] Man in white uniform in background center: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+white+uniform+in+background+center&language=en&format=json&type=item&limit=1
+[09:10]   No result found.
+[09:15] Processing: Man in white uniform in background right
+[09:15]   [search error] Man in white uniform in background right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+white+uniform+in+background+right&language=en&format=json&type=item&limit=1
+[09:16]   No result found.
+[09:21] Processing: Man in white uniform standing near cart in center right
+[09:21]   [search error] Man in white uniform standing near cart in center right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+in+white+uniform+standing+near+cart+in+center+right&language=en&format=json&type=item&limit=1
+[09:22]   No result found.
+[09:27] Processing: Man in yellow shirt on left
+[09:28]   No result found.
+[09:33] Processing: Man near sign in center
+[09:34]   No result found.
+[09:39] Processing: Man standing near red awning on right
+[09:39]   [search error] Man standing near red awning on right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Man+standing+near+red+awning+on+right&language=en&format=json&type=item&limit=1
+[09:40]   No result found.
+[09:45] Processing: Person holding camera or phone in background
+[09:46]   [search error] Person holding camera or phone in background: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+holding+camera+or+phone+in+background&language=en&format=json&type=item&limit=1
+[09:46]   No result found.
+[09:51] Processing: Person in blue uniform
+[09:52]   [search error] Person in blue uniform: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+in+blue+uniform&language=en&format=json&type=item&limit=1
+[09:52]   No result found.
+[09:57] Processing: Person in pink shirt
+[09:58]   [search error] Person in pink shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+in+pink+shirt&language=en&format=json&type=item&limit=1
+[09:58]   No result found.
+[10:03] Processing: Person in white shirt
+[10:04]   [search error] Person in white shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+in+white+shirt&language=en&format=json&type=item&limit=1
+[10:04]   No result found.
+[10:09] Processing: Person in white shirt (foreground)
+[10:10]   [search error] Person in white shirt (foreground): 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+in+white+shirt+%28foreground%29&language=en&format=json&type=item&limit=1
+[10:10]   No result found.
+[10:15] Processing: Person in white uniform standing in background
+[10:16]   [search error] Person in white uniform standing in background: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+in+white+uniform+standing+in+background&language=en&format=json&type=item&limit=1
+[10:16]   No result found.
+[10:21] Processing: Person standing on the right
+[10:22]   [search error] Person standing on the right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Person+standing+on+the+right&language=en&format=json&type=item&limit=1
+[10:22]   No result found.
+[10:27] Processing: Woman in white top and black pants on left
+[10:28]   No result found.
+[10:33] Processing: foreground person with striped shirt
+[10:34]   No result found.
+[10:39] Processing: man in pink shirt
+[10:40]   [search error] man in pink shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+pink+shirt&language=en&format=json&type=item&limit=1
+[10:40]   No result found.
+[10:45] Processing: man in white outfit
+[10:46]   [search error] man in white outfit: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+white+outfit&language=en&format=json&type=item&limit=1
+[10:47]   No result found.
+[10:52] Processing: man in white outfit facing away
+[10:52]   [search error] man in white outfit facing away: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+white+outfit+facing+away&language=en&format=json&type=item&limit=1
+[10:53]   No result found.
+[10:58] Processing: man in white outfit with red sash
+[10:58]   [search error] man in white outfit with red sash: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+white+outfit+with+red+sash&language=en&format=json&type=item&limit=1
+[10:59]   No result found.
+[11:04] Processing: man in white robe raising hand
+[11:04]   [search error] man in white robe raising hand: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+white+robe+raising+hand&language=en&format=json&type=item&limit=1
+[11:05]   No result found.
+[11:10] Processing: man in white shirt and dark pants
+[11:10]   [search error] man in white shirt and dark pants: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+in+white+shirt+and+dark+pants&language=en&format=json&type=item&limit=1
+[11:11]   No result found.
+[11:16] Processing: man with white robe and cane
+[11:16]   [search error] man with white robe and cane: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=man+with+white+robe+and+cane&language=en&format=json&type=item&limit=1
+[11:17]   No result found.
+[11:22] Processing: person 1
+[11:22]   [search error] person 1: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+1&language=en&format=json&type=item&limit=1
+[11:22]   No result found.
+[11:27] Processing: person 2
+[11:28]   No result found.
+[11:33] Processing: person behind the person in white
+[11:34]   No result found.
+[11:39] Processing: person in green shirt standing on right
+[11:40]   [search error] person in green shirt standing on right: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+green+shirt+standing+on+right&language=en&format=json&type=item&limit=1
+[11:40]   No result found.
+[11:45] Processing: person in light blue shirt
+[11:46]   [search error] person in light blue shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+light+blue+shirt&language=en&format=json&type=item&limit=1
+[11:46]   No result found.
+[11:51] Processing: person in orange shirt
+[11:51]   [search error] person in orange shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+orange+shirt&language=en&format=json&type=item&limit=1
+[11:52]   No result found.
+[11:57] Processing: person in pink shirt
+[11:59]   [search error] person in pink shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+pink+shirt&language=en&format=json&type=item&limit=1
+[11:59]   No result found.
+[12:04] Processing: person in red clothing
+[12:05]   [search error] person in red clothing: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+red+clothing&language=en&format=json&type=item&limit=1
+[12:05]   No result found.
+[12:10] Processing: person in red shirt
+[12:11]   [search error] person in red shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+red+shirt&language=en&format=json&type=item&limit=1
+[12:11]   No result found.
+[12:16] Processing: person in striped shirt
+[12:17]   [search error] person in striped shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+striped+shirt&language=en&format=json&type=item&limit=1
+[12:17]   No result found.
+[12:22] Processing: person in white outfit walking away
+[12:23]   [search error] person in white outfit walking away: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+white+outfit+walking+away&language=en&format=json&type=item&limit=1
+[12:24]   No result found.
+[12:29] Processing: person in white shirt
+[12:30]   No result found.
+[12:35] Processing: person in yellow outfit
+[12:36]   No result found.
+[12:41] Processing: person in yellow shirt
+[12:41]   [search error] person in yellow shirt: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=person+in+yellow+shirt&language=en&format=json&type=item&limit=1
+[12:42]   No result found.
+[12:47] Processing: Kapil Collection
+[12:47]   [search error] Kapil Collection: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kapil+Collection&language=en&format=json&type=item&limit=1
+[12:48]   No result found.
+[12:53] Processing: Sidewalk
+[12:53]   [search error] Sidewalk: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sidewalk&language=en&format=json&type=item&limit=1
+[12:54]   No result found.
+[12:59] Processing: Storefront with yellow sign
+[12:59]   [search error] Storefront with yellow sign: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Storefront+with+yellow+sign&language=en&format=json&type=item&limit=1
+[13:00]   No result found.
+[13:05] Processing: Street
+[13:05]   [search error] Street: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Street&language=en&format=json&type=item&limit=1
+[13:05]   No result found.
+[13:10] Processing: area with structures visible in background
+[13:11]   [search error] area with structures visible in background: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=area+with+structures+visible+in+background&language=en&format=json&type=item&limit=1
+[13:11]   No result found.
+[13:16] Processing: building
+[13:17]   [search error] building: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=building&language=en&format=json&type=item&limit=1
+[13:17]   No result found.
+[13:22] Processing: building entrance
+[13:23]   [search error] building entrance: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=building+entrance&language=en&format=json&type=item&limit=1
+[13:23]   No result found.
+[13:28] Processing: busy street
+[13:29]   Found: Q124916673 – Busy Street (painting by Grandma Moses (1952))
+[13:31]   SPARQL rows: 1
+[13:36] Processing: road or street with buildings on both sides
+[13:37]   No result found.
+[13:42] Processing: shopfront with awning
+[13:42]   [search error] shopfront with awning: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=shopfront+with+awning&language=en&format=json&type=item&limit=1
+[13:43]   No result found.
+[13:48] Processing: street
+[13:48]   [search error] street: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=street&language=en&format=json&type=item&limit=1
+[13:49]   No result found.
+[13:54] Processing: urban area
+[13:54]   [search error] urban area: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=urban+area&language=en&format=json&type=item&limit=1
+[13:55]   No result found.
+[14:00] Processing: urban area with buildings and shops
+[14:01]   [search error] urban area with buildings and shops: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=urban+area+with+buildings+and+shops&language=en&format=json&type=item&limit=1
+[14:02]   No result found.
+[14:07] Processing: urban street
+[14:07]   [search error] urban street: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=urban+street&language=en&format=json&type=item&limit=1
+[14:08]   No result found.
+[14:13] Processing: Indian
+[14:13]   [search error] Indian: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Indian&language=en&format=json&type=item&limit=1
+[14:14]   No result found.
+[14:19] Processing: Nepal
+[14:19]   [search error] Nepal: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Nepal&language=en&format=json&type=item&limit=1
+[14:20]   No result found.
+[14:25] Processing: Crowd gathering
+[14:26]   Found: Q130949355 – Crowd Gathering Abnormal Behavior Detection Based on Convolutional Neural Network: Crowd Gathering Abnormal Behavior Detection Based on Convolutional Neural Network (scientific article published on 14 June 2024)
+[14:27]   SPARQL rows: 1
+[14:32] Processing: Market scene
+[14:33]   Found: Q77851965 – Market Scene (painting by Paul Bril)
+[14:35]   SPARQL rows: 1
+[14:40] Processing: Om symbol
+[14:41]   Found: Q87581086 – 🕉 (Unicode character)
+[14:42]   SPARQL rows: 2
+[14:47] Processing: Japanese
+[14:48]   [search error] Japanese: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Japanese&language=en&format=json&type=item&limit=1
+[14:48]   No result found.
+[14:53] Processing: Cart
+[14:54]   [search error] Cart: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Cart&language=en&format=json&type=item&limit=1
+[14:54]   No result found.
+[14:59] Processing: Signboard
+[15:00]   [search error] Signboard: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Signboard&language=en&format=json&type=item&limit=1
+[15:00]   No result found.
+[15:05] [Knowledge Graph] module finished in 06:27
+[15:05] Pipeline finished in 15:05.

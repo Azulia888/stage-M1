@@ -1,0 +1,58 @@
+#Rapport de stage notes
+
+//Introduction
+
+-> more and more fake news
+-> current journalistic efforts aren't keeping up with the demand
+-> even worse with gen ai
+-> why people have been looking into AFC for a long time now
+-> because of its subject, AFC demands more rigorous criteria to be accepted
+-> ie multimodal and explainable (and EXPLAINABLE, not the other thing)
+-> many attempts have been made throughout the past, and some are quite good
+-> benchmarks have been created as well, and they're pretty awesome too
+-> some systems even made it to the point of releasing something, like askvera
+-> the original goal of this internship was to try and create an AFC system that would be multimodal and explainable
+-> however, during the research phases, things came up and the final project changed a little compared to what was originally planned
+-> in the first part, we'll explore that research in details, as well as what led to changing the original goal
+-> then we'll see what i actually did, and what it could mean for the future of AFC systems
+
+
+//Partie 1 - Recherches
+
+-> state of the art
+
+-> assises du journalisme
+
+-> l'article goatesque de la meuf sur l'explicabilité dans l'AFC
+
+-> l'influence de tell me your story pictures or smth like this you know the one
+
+-> conclusions personnelles sur l'etat de l'AFC (fancy search engine) et pourquoi une autre approche est necessaire
+
+
+//Partie 2 - Une autre approche
+
+-> ma solution, un AFC non pas pour les gens lambdas, mais pour les journalistes
+
+-> truc evoqué aux assises
+
+-> c'est cool parce que les standards sont pas les memes (moins grave que ca dise de la merde)
+
+-> on ne cherche plus a remplacer les fact-checker, mais a les aider dans leur travail, ce qui imo est bien plus cool
+
+-> schema que je propose
+
+-> l'experience initiale qui est plutot concluante
+
+-> focus pour le stage sur le vision module et un peu XAI
+
+-> pipeline du vision module
+
+-> code
+
+-> exemple
+
+-> pour aller plus loin tout ca tout ca
+
+
+

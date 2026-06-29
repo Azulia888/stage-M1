@@ -1,0 +1,236 @@
+[
+  {
+    "entity": "Donald Trump",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Trump",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "US",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "White House",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Painting (horses and hunters)",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Painting on the wall",
+    "wikidata_id": "Q428306",
+    "search_result": {
+      "id": "Q428306",
+      "label": "Painting on the Wall",
+      "description": "single by Edguy",
+      "url": "//www.wikidata.org/wiki/Q428306"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q428306",
+        "itemLabel": "Painting on the Wall",
+        "itemDescription": "single by Edguy",
+        "instanceOfLabel": "single"
+      }
+    ]
+  },
+  {
+    "entity": "TRUMP MAGNIFICENT",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "The Washingtonians",
+    "wikidata_id": "Q7773649",
+    "search_result": {
+      "id": "Q7773649",
+      "label": "The Washingtonians",
+      "description": "episode of Masters of Horror",
+      "url": "//www.wikidata.org/wiki/Q7773649"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q7773649",
+        "itemLabel": "The Washingtonians",
+        "itemDescription": "episode of Masters of Horror",
+        "instanceOfLabel": "television series episode"
+      }
+    ]
+  },
+  {
+    "entity": "american flag",
+    "wikidata_id": "Q2509336",
+    "search_result": {
+      "id": "Q2509336",
+      "label": "Continental Union Flag",
+      "description": "first national flag of the United States",
+      "url": "//www.wikidata.org/wiki/Q2509336"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q2509336",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%281776%E2%80%931777%29.svg",
+        "itemLabel": "Continental Union Flag",
+        "itemDescription": "first national flag of the United States",
+        "instanceOfLabel": "design of the United States flag",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "painted canvas in the background",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "painting",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "painting in the background",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "painting with a historical scene",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": "Q30",
+    "search_result": {
+      "id": "Q30",
+      "label": "United States",
+      "description": "country located primarily in North America",
+      "url": "//www.wikidata.org/wiki/Q30"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q30",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20-%20Location%20Map%20%282013%29%20-%20USA%20-%20UNOCHA.svg",
+        "itemLabel": "United States",
+        "itemDescription": "country located primarily in North America",
+        "instanceOfLabel": "country",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q30",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20-%20Location%20Map%20%282013%29%20-%20USA%20-%20UNOCHA.svg",
+        "itemLabel": "United States",
+        "itemDescription": "country located primarily in North America",
+        "instanceOfLabel": "sovereign state",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "White House",
+    "wikidata_id": "Q35525",
+    "search_result": {
+      "id": "Q35525",
+      "label": "White House",
+      "description": "official residence and office of the President of the United States",
+      "url": "//www.wikidata.org/wiki/Q35525"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "tourist attraction",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "mansion",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "presidential palace",
+        "countryLabel": "United States"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q35525",
+        "officialWebsite": "https://www.whitehouse.gov",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WhiteHouseSouthFacade.JPG",
+        "itemLabel": "White House",
+        "itemDescription": "official residence and office of the President of the United States",
+        "instanceOfLabel": "civic building",
+        "countryLabel": "United States"
+      }
+    ]
+  },
+  {
+    "entity": "2023",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "August 30",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "June 1",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "June 2024",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2020 election",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "2024 election",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]

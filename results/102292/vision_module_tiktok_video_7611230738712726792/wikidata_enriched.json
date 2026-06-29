@@ -1,0 +1,214 @@
+[
+  {
+    "entity": "Mortlib Hussain",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "TikTok",
+    "wikidata_id": "Q48938223",
+    "search_result": {
+      "id": "Q48938223",
+      "label": "TikTok",
+      "description": "video-focused social media platform",
+      "url": "//www.wikidata.org/wiki/Q48938223"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q48938223",
+        "officialWebsite": "https://tiktok.com",
+        "itemLabel": "TikTok",
+        "itemDescription": "video-focused social media platform",
+        "instanceOfLabel": "online video platform",
+        "countryLabel": "People's Republic of China"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q48938223",
+        "officialWebsite": "https://tiktok.com",
+        "itemLabel": "TikTok",
+        "itemDescription": "video-focused social media platform",
+        "instanceOfLabel": "social networking service",
+        "countryLabel": "People's Republic of China"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q48938223",
+        "officialWebsite": "https://tiktok.com",
+        "itemLabel": "TikTok",
+        "itemDescription": "video-focused social media platform",
+        "instanceOfLabel": "online community",
+        "countryLabel": "People's Republic of China"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q48938223",
+        "officialWebsite": "https://tiktok.com",
+        "itemLabel": "TikTok",
+        "itemDescription": "video-focused social media platform",
+        "instanceOfLabel": "very large online platform",
+        "countryLabel": "People's Republic of China"
+      }
+    ]
+  },
+  {
+    "entity": "mortlib.hussain",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Desert",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Desert landscape",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Iran",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Iraqi desert",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Mountain / Desert Terrain",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Sand dune",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Wadi Shara",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Tunnel mural",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  },
+  {
+    "entity": "Iranian",
+    "wikidata_id": "Q9168",
+    "search_result": {
+      "id": "Q9168",
+      "label": "Persian",
+      "description": "Western Iranian language",
+      "url": "//www.wikidata.org/wiki/Q9168"
+    },
+    "sparql_data": [
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language family",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "natural language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "macrolanguage",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "dialect continuum",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "field of study",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "dialect group",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "modern language",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "field of study",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Russia"
+      },
+      {
+        "item": "http://www.wikidata.org/entity/Q9168",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsi.svg",
+        "itemLabel": "Persian",
+        "itemDescription": "Western Iranian language",
+        "instanceOfLabel": "language family",
+        "subclassOfLabel": "New Persian",
+        "countryLabel": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "entity": "United States",
+    "wikidata_id": null,
+    "search_result": null,
+    "sparql_data": []
+  }
+]
